@@ -123,7 +123,7 @@ export default function CensusPage() {
       </div>
 
       {/* Основная статистика */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
           <div className="flex items-center space-x-4">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100">
@@ -194,7 +194,7 @@ export default function CensusPage() {
       </div>
 
       {/* Детальная статистика */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-2">
         {/* Половозрастная структура */}
         <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
           <h3 className="text-lg font-semibold mb-4">
@@ -362,9 +362,9 @@ export default function CensusPage() {
 
       {/* Последние записи */}
       <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center mb-4">
           <h3 className="text-lg font-semibold">Последние записи переписи</h3>
-          <Button variant="outline" size="sm">
+          <Button variant="outline" size="sm" className="w-full sm:w-auto">
             <Calendar className="h-4 w-4 mr-2" />
             Показать все
           </Button>
@@ -373,20 +373,20 @@ export default function CensusPage() {
           {recentEntries.map((entry) => (
             <div
               key={entry.id}
-              className="flex items-center justify-between p-3 border rounded-lg"
+              className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between p-3 border rounded-lg"
             >
               <div className="flex items-center space-x-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/10">
                   <Users className="h-4 w-4 text-primary" />
                 </div>
-                <div>
-                  <p className="text-sm font-medium">{entry.name}</p>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-medium truncate">{entry.name}</p>
                   <p className="text-xs text-muted-foreground">{entry.date}</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-end sm:justify-start space-x-2">
                 <span
-                  className={`px-2 py-1 rounded-full text-xs font-medium ${
+                  className={`px-2 py-1 rounded-full text-xs font-medium whitespace-nowrap ${
                     entry.status === "completed"
                       ? "bg-green-100 text-green-800"
                       : "bg-yellow-100 text-yellow-800"
