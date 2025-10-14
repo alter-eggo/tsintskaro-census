@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { BarChart3, Home, Users } from "lucide-react";
+import { BarChart3, House, Users2 } from "lucide-react";
 
 import {
   Sidebar,
@@ -13,6 +13,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
+  useSidebar,
 } from "@/components/ui/sidebar";
 import Link from "next/link";
 
@@ -22,7 +23,7 @@ const data = {
     {
       title: "Панель управления",
       url: "/",
-      icon: Home,
+      icon: House,
     },
     {
       title: "Данные переписи",
@@ -37,19 +38,27 @@ const data = {
     {
       title: "Население",
       url: "/population",
-      icon: Users,
+      icon: Users2,
     },
   ],
 };
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const { setOpenMobile, isMobile } = useSidebar();
+
+  const handleNavClick = () => {
+    if (isMobile) {
+      setOpenMobile(false);
+    }
+  };
+
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link href="/">
+              <Link href="/" onClick={handleNavClick}>
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                   <BarChart3 className="size-4" />
                 </div>
@@ -69,7 +78,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               {data.navMain.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    <Link href={item.url}>
+                    <Link href={item.url} onClick={handleNavClick}>
                       <item.icon />
                       <span>{item.title}</span>
                     </Link>
