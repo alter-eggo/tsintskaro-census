@@ -85,16 +85,16 @@ export default function CensusPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex justify-between items-start">
+      <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-start">
         <div>
           <h2 className="text-2xl font-bold tracking-tight">Данные переписи</h2>
           <p className="text-muted-foreground">
             Статистические данные и аналитика переписи населения Цинцкаро
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-col gap-2 sm:flex-row">
           <Select value={selectedYear} onValueChange={setSelectedYear}>
-            <SelectTrigger className="w-32">
+            <SelectTrigger className="w-full sm:w-32">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
@@ -104,7 +104,7 @@ export default function CensusPage() {
             </SelectContent>
           </Select>
           <Select value={selectedRegion} onValueChange={setSelectedRegion}>
-            <SelectTrigger className="w-40">
+            <SelectTrigger className="w-full sm:w-40">
               <SelectValue placeholder="Регион" />
             </SelectTrigger>
             <SelectContent>
@@ -114,9 +114,10 @@ export default function CensusPage() {
               <SelectItem value="south">Юг</SelectItem>
             </SelectContent>
           </Select>
-          <Button>
-            <FileText className="h-4 w-4 mr-2" />
-            Экспорт
+          <Button className="w-full sm:w-auto">
+            <FileText className="h-4 w-4 sm:mr-2" />
+            <span className="hidden sm:inline">Экспорт</span>
+            <span className="sm:hidden">Экспорт</span>
           </Button>
         </div>
       </div>
@@ -338,7 +339,7 @@ export default function CensusPage() {
         <h3 className="text-lg font-semibold mb-4">
           Языковая структура населения
         </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4">
           {Object.entries(censusData.languages).map(([language, count]) => (
             <div key={language} className="text-center">
               <div className="text-2xl font-bold text-primary">{count}</div>
