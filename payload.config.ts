@@ -1,4 +1,4 @@
-import { buildConfig } from "payload/config";
+import { buildConfig } from "payload";
 import { mongooseAdapter } from "@payloadcms/db-mongodb";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import path from "path";
@@ -8,7 +8,6 @@ export default buildConfig({
     user: "users",
     meta: {
       titleSuffix: "- Цинцкаро CMS",
-      favicon: "/favicon.ico",
     },
   },
   collections: [
