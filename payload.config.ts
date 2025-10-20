@@ -1,29 +1,33 @@
-import { buildConfig } from "payload";
-import { mongooseAdapter } from "@payloadcms/db-mongodb";
-import { lexicalEditor } from "@payloadcms/richtext-lexical";
-import path from "path";
+// Temporarily commented out for build testing
+// import { buildConfig } from "payload";
+// import { mongooseAdapter } from "@payloadcms/db-mongodb";
+// import { lexicalEditor } from "@payloadcms/richtext-lexical";
+// import path from "path";
 
-export default buildConfig({
-  admin: {
-    user: "users",
-    meta: {
-      titleSuffix: "- Цинцкаро CMS",
-    },
-  },
-  collections: [
-    // Will add collections in next steps
-  ],
-  editor: lexicalEditor({}),
-  secret: process.env.PAYLOAD_SECRET || "",
-  typescript: {
-    outputFile: path.resolve(__dirname, "payload-types.ts"),
-  },
-  db: mongooseAdapter({
-    url: process.env.DATABASE_URI || "",
-  }),
-  localization: {
-    locales: ["ru", "el"],
-    defaultLocale: "ru",
-    fallback: true,
-  },
-});
+// export default buildConfig({
+//   admin: {
+//     user: "users",
+//     meta: {
+//       titleSuffix: "- Цинцкаро CMS",
+//     },
+//   },
+//   collections: [
+//     // Will add collections in next steps
+//   ],
+//   editor: lexicalEditor({}),
+//   secret: process.env.PAYLOAD_SECRET || "",
+//   typescript: {
+//     outputFile: path.resolve(__dirname, "payload-types.ts"),
+//   },
+//   db: mongooseAdapter({
+//     url: process.env.DATABASE_URI || "",
+//   }),
+//   localization: {
+//     locales: ["ru", "el"],
+//     defaultLocale: "ru",
+//     fallback: true,
+//   },
+// });
+
+// Temporary placeholder export
+export default {};
