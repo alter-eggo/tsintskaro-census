@@ -1,8 +1,69 @@
-import { BookOpen } from "lucide-react";
+"use client";
+
+import { useState } from "react";
+import { BookOpen, Grid3X3, List, Plus } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  traditionsData,
+  traditionCategories,
+  traditionsStatistics,
+  Tradition,
+} from "@/lib/mock-data/traditions";
+import { TraditionCard } from "@/components/traditions/TraditionCard";
+import { TraditionCategoryCard } from "@/components/traditions/TraditionCategoryCard";
+import { TraditionSearch } from "@/components/traditions/TraditionSearch";
+import { TraditionStatistics } from "@/components/traditions/TraditionStatistics";
+import { TraditionModal } from "@/components/traditions/TraditionModal";
 
 export default function TraditionsPage() {
+  const [filteredTraditions, setFilteredTraditions] =
+    useState<Tradition[]>(traditionsData);
+  const [selectedTradition, setSelectedTradition] = useState<Tradition | null>(
+    null
+  );
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [viewMode, setViewMode] = useState<"categories" | "traditions">(
+    "categories"
+  );
+  const [, setSelectedCategory] = useState<string>("all");
+
+  const handleSearch = (traditions: Tradition[]) => {
+    setFilteredTraditions(traditions);
+    setViewMode("traditions");
+  };
+
+  const handleViewTradition = (tradition: Tradition) => {
+    setSelectedTradition(tradition);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedTradition(null);
+  };
+
+  const handleSelectCategory = (categoryId: string) => {
+    setSelectedCategory(categoryId);
+    if (categoryId === "all") {
+      setFilteredTraditions(traditionsData);
+    } else {
+      const categoryTraditions = traditionsData.filter(
+        (tradition) => tradition.category === categoryId
+      );
+      setFilteredTraditions(categoryTraditions);
+    }
+    setViewMode("traditions");
+  };
+
+  const handleAddTradition = () => {
+    // TODO: Implement tradition addition functionality
+    console.log("Add tradition clicked");
+  };
+
   return (
     <div className="flex flex-col gap-6">
+      {/* Header */}
       <div>
         <h2 className="text-2xl font-bold tracking-tight">Традиции</h2>
         <p className="text-muted-foreground">
@@ -10,39 +71,113 @@ export default function TraditionsPage() {
         </p>
       </div>
 
-      <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm">
-        <div className="flex items-center space-x-4 mb-4">
-          <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-            <BookOpen className="h-6 w-6 text-primary" />
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold">Раздел в разработке</h3>
-            <p className="text-sm text-muted-foreground">
-              Мы собираем и систематизируем культурное наследие
-            </p>
-          </div>
+      {/* Statistics */}
+      <TraditionStatistics statistics={traditionsStatistics} />
+
+      {/* Search and Filters */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <BookOpen className="h-5 w-5" />
+            Поиск традиций
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <TraditionSearch
+            traditions={traditionsData}
+            onSearch={handleSearch}
+          />
+        </CardContent>
+      </Card>
+
+      {/* View Mode Toggle */}
+      <div className="flex items-center justify-between">
+        <div className="flex gap-2">
+          <Button
+            variant={viewMode === "categories" ? "default" : "outline"}
+            onClick={() => setViewMode("categories")}
+            size="sm"
+          >
+            <Grid3X3 className="h-4 w-4 mr-2" />
+            Категории
+          </Button>
+          <Button
+            variant={viewMode === "traditions" ? "default" : "outline"}
+            onClick={() => setViewMode("traditions")}
+            size="sm"
+          >
+            <List className="h-4 w-4 mr-2" />
+            Традиции
+          </Button>
         </div>
 
-        <div className="space-y-4">
-          <div className="p-4 bg-muted/50 rounded-lg">
-            <h4 className="font-medium mb-2">Планируемый контент:</h4>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>• Праздники и обряды</li>
-              <li>• Народные песни и танцы</li>
-              <li>• Кулинарные традиции</li>
-              <li>• Религиозные обычаи</li>
-              <li>• Семейные ритуалы</li>
-            </ul>
-          </div>
+        <Button onClick={handleAddTradition} className="gap-2">
+          <Plus className="h-4 w-4" />
+          Добавить традицию
+        </Button>
+      </div>
 
-          <div className="text-center py-8">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
-              <div className="w-2 h-2 bg-primary rounded-full mr-2 animate-pulse"></div>
-              В разработке
+      {/* Content */}
+      {viewMode === "categories" ? (
+        <div>
+          <h3 className="text-lg font-semibold mb-4">Категории традиций</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {traditionCategories.map((category) => (
+              <TraditionCategoryCard
+                key={category.id}
+                category={category}
+                onSelectCategory={handleSelectCategory}
+              />
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div>
+          {/* Results Header */}
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h3 className="text-lg font-semibold">Найденные традиции</h3>
+              <p className="text-sm text-muted-foreground">
+                Показано {filteredTraditions.length} из {traditionsData.length}{" "}
+                традиций
+              </p>
             </div>
           </div>
+
+          {/* Traditions Grid */}
+          {filteredTraditions.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredTraditions.map((tradition) => (
+                <TraditionCard
+                  key={tradition.id}
+                  tradition={tradition}
+                  onViewTradition={handleViewTradition}
+                />
+              ))}
+            </div>
+          ) : (
+            <Card>
+              <CardContent className="flex flex-col items-center justify-center py-12">
+                <BookOpen className="h-12 w-12 text-muted-foreground mb-4" />
+                <h3 className="text-lg font-semibold mb-2">
+                  Традиции не найдены
+                </h3>
+                <p className="text-muted-foreground text-center">
+                  Попробуйте изменить параметры поиска или выберите другую
+                  категорию
+                </p>
+              </CardContent>
+            </Card>
+          )}
         </div>
-      </div>
+      )}
+
+      {/* Tradition Modal */}
+      <TraditionModal
+        tradition={selectedTradition}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </div>
   );
 }
