@@ -33,7 +33,7 @@ export function GallerySearch({ photos, onSearch }: GallerySearchProps) {
   ).sort();
 
   const handleSearch = () => {
-    let filtered = photos.filter((photo) => {
+    const filtered = photos.filter((photo) => {
       const matchesSearch =
         photo.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         photo.description.toLowerCase().includes(searchTerm.toLowerCase()) ||

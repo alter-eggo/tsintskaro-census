@@ -27,7 +27,7 @@ export function TraditionSearch({
   const [showFilters, setShowFilters] = useState(false);
 
   const handleSearch = () => {
-    let filtered = traditions.filter((tradition) => {
+    const filtered = traditions.filter((tradition) => {
       const matchesSearch =
         tradition.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         tradition.description

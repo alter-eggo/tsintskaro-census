@@ -31,7 +31,7 @@ export function FamilySearch({ families, onSearch }: FamilySearchProps) {
   ).sort();
 
   const handleSearch = () => {
-    let filtered = families.filter((family) => {
+    const filtered = families.filter((family) => {
       const matchesSearch =
         family.surname.toLowerCase().includes(searchTerm.toLowerCase()) ||
         family.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
