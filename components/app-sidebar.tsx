@@ -2,15 +2,12 @@
 
 import * as React from "react";
 import {
-  BarChart3,
   House,
   Users,
   History,
   Users2,
   Image,
   BookOpen,
-  GraduationCap,
-  Gamepad2,
   Languages,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
@@ -38,9 +35,6 @@ const navigation = [
   { name: "Фамилии", href: "/families", icon: Users },
   { name: "Галерея", href: "/gallery", icon: Image },
   { name: "Традиции", href: "/traditions", icon: BookOpen },
-  { name: "Образование", href: "/education", icon: GraduationCap },
-  { name: "Досуг", href: "/leisure", icon: BarChart3 },
-  { name: "Игры", href: "/games", icon: Gamepad2 },
 ];
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
