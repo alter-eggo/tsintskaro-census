@@ -89,13 +89,7 @@ export default function LanguagePage() {
   return (
     <div className="flex flex-col gap-6">
       {/* Header */}
-      <div>
-        <h2 className="text-2xl font-bold tracking-tight">Язык</h2>
-        <p className="text-muted-foreground">
-          Словарь цинцкарского языка — {dictionaryData.metadata.totalEntries}{" "}
-          слов
-        </p>
-      </div>
+      <h2 className="text-2xl font-bold tracking-tight">Язык</h2>
 
       {/* Statistics - compact inline */}
       <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
