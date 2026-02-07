@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Цинцкаро",
-  description: "Система управления данными о населении для Цинцкаро",
+  description: "Цинцкаро — информационный портал",
 };
 
 export default function RootLayout({
