@@ -11,6 +11,7 @@ import {
   BookOpen,
   GraduationCap,
   Gamepad2,
+  Languages,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 
@@ -31,6 +32,7 @@ import Link from "next/link";
 // Menu items from Header component example.
 const navigation = [
   { name: "Главная", href: "/", icon: House },
+  { name: "Язык", href: "/language", icon: Languages },
   { name: "Об Обществе", href: "/about", icon: Users2 },
   { name: "История", href: "/history", icon: History },
   { name: "Фамилии", href: "/families", icon: Users },
