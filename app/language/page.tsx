@@ -14,6 +14,10 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import dictionaryData from "@/lib/data/dictionary.json";
+import {
+  TSINTSKARO_ALPHABET,
+  getWordLetter,
+} from "@/lib/data/dictionary";
 import type { DictionaryEntry } from "@/lib/data/dictionary";
 
 const ITEMS_PER_PAGE = 50;
@@ -25,15 +29,14 @@ export default function LanguagePage() {
 
   const entries = dictionaryData.entries as DictionaryEntry[];
 
-  // Get unique first letters for alphabet navigation
+  // Use the official Tsintskaro alphabet, filtered to letters that have entries
   const alphabet = useMemo(() => {
-    const letters = new Set<string>();
+    const usedLetters = new Set<string>();
     entries.forEach((entry) => {
-      if (entry.word) {
-        letters.add(entry.word[0].toUpperCase());
-      }
+      const letter = getWordLetter(entry.word);
+      if (letter) usedLetters.add(letter);
     });
-    return Array.from(letters).sort();
+    return TSINTSKARO_ALPHABET.filter((letter) => usedLetters.has(letter));
   }, [entries]);
 
   // Filter entries based on search query and selected letter
@@ -42,7 +45,7 @@ export default function LanguagePage() {
 
     if (selectedLetter) {
       result = result.filter(
-        (entry) => entry.word[0].toUpperCase() === selectedLetter
+        (entry) => getWordLetter(entry.word) === selectedLetter
       );
     }
 
@@ -130,7 +133,7 @@ export default function LanguagePage() {
               <button
                 key={letter}
                 onClick={() => handleLetterClick(letter)}
-                className={`h-8 w-8 rounded-md text-sm font-medium transition-colors ${
+                className={`h-8 ${letter.length > 1 ? "w-10" : "w-8"} rounded-md text-sm font-medium transition-colors ${
                   selectedLetter === letter
                     ? "bg-primary text-primary-foreground"
                     : "bg-muted hover:bg-muted/80"

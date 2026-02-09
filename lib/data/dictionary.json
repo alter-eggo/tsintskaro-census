@@ -1,158 +1,35 @@
 {
   "metadata": {
-    "name": "Эталонный словарь цинцкарского языка",
-    "nameEn": "Standard Dictionary of Tsintskaro Language",
+    "name": "Словарь цинцкарского языка",
+    "nameEn": "Dictionary of Tsintskaro Language",
     "source": "https://docs.google.com/spreadsheets/d/1DRomX8f2oxBIVpvygpySyGQ8UZf1UBXb7B8DYFfZSdg",
-    "lastUpdated": "2026-02-07T18:38:29.940Z",
-    "totalEntries": 883
+    "sheets": [
+      "Эталонный словарь",
+      "Рабочий словарь"
+    ],
+    "lastUpdated": "2026-02-09T15:46:28.653Z",
+    "totalEntries": 1166
   },
   "entries": [
-    {
-      "word": "Âбâмын гхуршахи",
-      "translation": "радуга"
-    },
-    {
-      "word": "Âв",
-      "translation": "дом",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âвâлчи",
-      "translation": "стародавний",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Âви топламах",
-      "translation": "убираться в доме",
-      "partOfSpeech": "сущ+глагол"
-    },
-    {
-      "word": "Âдâт",
-      "translation": "обычай",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âджиш",
-      "translation": "лопаточка металлическая",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âдич",
-      "translation": "кутья",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âймâч",
-      "translation": "хлеб",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âйси",
-      "translation": "старый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Âйтым",
-      "translation": "доверительность",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âйши",
-      "translation": "кислый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Âл чâймах",
-      "translation": "избавляться"
-    },
-    {
-      "word": "Âлâч",
-      "translation": "решето",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âр",
-      "translation": "муж",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âрджан",
-      "translation": "холостой",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âрджиши",
-      "translation": "мужчина",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âрчащ",
-      "translation": "любой",
-      "partOfSpeech": "местоимение"
-    },
-    {
-      "word": "Ôзджâ",
-      "translation": "другой",
-      "partOfSpeech": "местоимение"
-    },
-    {
-      "word": "Ôлŷм",
-      "translation": "смерть",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ôльмах",
-      "translation": "умирать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ôмŷр",
-      "translation": "жизнь",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ôмŷрŷн узун олсун",
-      "translation": "живи долго",
-      "partOfSpeech": "глагол-наречие"
-    },
-    {
-      "word": "Ôрŷмджâч",
-      "translation": "паук,паутина",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ôрджâнмах",
-      "translation": "научиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ôрти",
-      "translation": "постель",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ôрти халдырмах",
-      "translation": "заправлять постель"
-    },
-    {
-      "word": "Ŷрâджим хъопди",
-      "translation": "Сердце вздрогнуло",
-      "partOfSpeech": "сущ+глагол"
-    },
-    {
-      "word": "Ŷрâч",
-      "translation": "Сердце",
-      "partOfSpeech": "существительное"
-    },
     {
       "word": "Абур",
       "translation": "Нравственность, стыд",
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Абурли",
+      "translation": "Порядочный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Абурсуз",
       "translation": "Бесстыжий, безнравственный",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Абурсузлух",
+      "translation": "Безнравственность",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "авасланмах",
@@ -174,27 +51,57 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Адым",
+      "translation": "шаг",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Адж",
       "translation": "голодный",
       "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Аджâр олурса-",
-      "translation": "если возможно... извините пожалуйста"
     },
     {
       "word": "Аджап",
       "translation": "да ладно"
     },
     {
-      "word": "Адым",
-      "translation": "шаг",
-      "partOfSpeech": "существительное"
+      "word": "Аджâр олурса-",
+      "translation": "если возможно... извините пожалуйста"
+    },
+    {
+      "word": "Аджи",
+      "translation": "Острый, Горький",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Аджи джôpмах",
+      "translation": "Видеть горе",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Аджûламах",
+      "translation": "Скорбеть, Сострадать, Горевать",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Аз",
       "translation": "Мало",
       "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Азмах гхудурмах",
+      "translation": "Взбеситься",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Азырламах",
+      "translation": "Подготавливать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Азырланмах",
+      "translation": "Готовиться, Подготовиться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Ай",
@@ -226,6 +133,22 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Айып",
+      "translation": "Стыд",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Айых",
+      "translation": "Трезвый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Айыхмах",
+      "translation": "Протрезветь",
+      "partOfSpeech": "глагол",
+      "comments": "добавить в столбец В: Айых!- просыпайся! ( проснись!) - повелит.наклон. Добавить в значенте ,  Очнуться, Очухаться, Прийти в сознание"
+    },
+    {
       "word": "Ал",
       "translation": "бордовый цвет",
       "partOfSpeech": "прилагательное"
@@ -251,6 +174,11 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Алти",
+      "translation": "1. Низ.  2. Шесть (цифра)",
+      "partOfSpeech": "существительное, числительное"
+    },
+    {
       "word": "Алтиян",
       "translation": "юбка",
       "partOfSpeech": "существительное"
@@ -261,6 +189,17 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Алтында",
+      "translation": "внизу , под чем-то. Выраж.: Алтындан бише эдиер.- что-то  делает исподтишка",
+      "partOfSpeech": "наречие прилагательное",
+      "comments": "Перенести в строку 8 ????"
+    },
+    {
+      "word": "Алтыннан",
+      "translation": "1. втемную, втихую. 2. снизу",
+      "partOfSpeech": "наречие"
+    },
+    {
       "word": "Алчах",
       "translation": "низкий",
       "partOfSpeech": "прилагательное"
@@ -269,6 +208,12 @@
       "word": "Алчет",
       "translation": "Река Алгети",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ама",
+      "translation": "1) Но; 2) Однако",
+      "partOfSpeech": "союз",
+      "comments": "01.02., 3:05"
     },
     {
       "word": "Аманатдан",
@@ -299,6 +244,11 @@
       "word": "Андер",
       "translation": "сирота, беспризорный",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "анджû?",
+      "translation": "какой ? который?",
+      "partOfSpeech": "вопросит.местоимение"
     },
     {
       "word": "Анни",
@@ -332,6 +282,16 @@
       "word": "Арба",
       "translation": "воз, телега",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Арзыламах",
+      "translation": "Возжелать (сильно хотеть)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ариян",
+      "translation": "Ищущий",
+      "partOfSpeech": "причастие"
     },
     {
       "word": "Армут",
@@ -373,8 +333,23 @@
       "translation": "вроде"
     },
     {
+      "word": "Асма",
+      "translation": "Будто",
+      "partOfSpeech": "союз"
+    },
+    {
+      "word": "Асма чи",
+      "translation": "Скажем, Допустим",
+      "partOfSpeech": "Вводное Слово"
+    },
+    {
       "word": "Аспап",
       "translation": "одежда",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Астар",
+      "translation": "подклад",
       "partOfSpeech": "существительное"
     },
     {
@@ -393,9 +368,25 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Атеш алмах",
+      "translation": "1. разгореться, разжигать. 2. прикуривать",
+      "partOfSpeech": "глагол",
+      "comments": "Обсудить дополнительно и звучание (буква е звучит как что-то среднее между е и э, нужен диакритик над е), и перевод Надо вынести вопрос о переводе на обсуждение в наш чат"
+    },
+    {
       "word": "Афиат Олсун",
       "translation": "на здоровье",
       "partOfSpeech": "междометие"
+    },
+    {
+      "word": "афта",
+      "translation": "неделя",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ахан су",
+      "translation": "Река",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Ахзи ачых",
@@ -409,6 +400,11 @@
     {
       "word": "Ахтармах",
       "translation": "хочу увидеть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ахтармах",
+      "translation": "Расспрашивать, Выискивать (Стремиться увидеть), Интересоваться, Тосковать",
       "partOfSpeech": "глагол"
     },
     {
@@ -459,8 +455,24 @@
       "partOfSpeech": "прилагательное"
     },
     {
+      "word": "Ахыри",
+      "translation": "В конце концов",
+      "partOfSpeech": "Фразеологизм"
+    },
+    {
       "word": "Ахырмах",
       "translation": "болеть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ахг сахкхал или сахгхал",
+      "translation": "Мудрый человек",
+      "partOfSpeech": "Словосочетание",
+      "comments": "Вынесено на общее обсуждение"
+    },
+    {
+      "word": "Ачылмах",
+      "translation": "Раскрыться, Открыться, Довериться (раскрыть душу)",
       "partOfSpeech": "глагол"
     },
     {
@@ -494,14 +506,40 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "ашшах",
+      "translation": "низ",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Ашшахи",
       "translation": "вниз",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Ашшахта",
+      "translation": "внизу",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Ашшахтан",
+      "translation": "снизу. Выраж.: ашшахтан ŷфŷлиер - снизу дует",
       "partOfSpeech": "наречие"
     },
     {
       "word": "Аям",
       "translation": "Погода",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Аян",
+      "translation": "1) Свет; 2) Наружность (Аяна чыхмах - Выйти  на свет (из тени), Выйти наружу",
+      "partOfSpeech": "существительное",
+      "comments": "перенести в строку 20"
+    },
+    {
+      "word": "Аян олмах",
+      "translation": "1. Привидеться, показаться. 2. \"выйти из тени\"",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Аят",
@@ -514,28 +552,158 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Бâльчем",
-      "translation": "наверное",
-      "partOfSpeech": "наречие"
+      "word": "Âбâмын гхуршахи",
+      "translation": "радуга"
     },
     {
-      "word": "Бôюмах",
-      "translation": "глупец",
+      "word": "Âв",
+      "translation": "дом",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âвâлчи",
+      "translation": "стародавний",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Âвджûч",
+      "translation": "детская игра для девочек \"Дочки матери\"",
+      "comments": "добавить часть речи: существительное"
+    },
+    {
+      "word": "Âви топламах",
+      "translation": "убираться в доме",
+      "partOfSpeech": "сущ+глагол"
+    },
+    {
+      "word": "Âдâт",
+      "translation": "обычай",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âдич",
+      "translation": "кутья",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âджâр",
+      "translation": "Если",
+      "partOfSpeech": "союз"
+    },
+    {
+      "word": "Âджиш",
+      "translation": "лопаточка металлическая",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âзьмах",
+      "translation": "Мять, Раздавить (в смысле Избить или Отлупить), Размазать, Защемить, Зажать",
       "partOfSpeech": "глагол"
     },
     {
-      "word": "Бôюч",
-      "translation": "Большой"
+      "word": "Âймâч",
+      "translation": "хлеб",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Бŷлŷджи",
-      "translation": "знающий",
-      "partOfSpeech": "Причастие"
+      "word": "Âйси",
+      "translation": "старый",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Бŷльмах",
-      "translation": "знать",
+      "word": "Âйтым",
+      "translation": "доверительность",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âйши",
+      "translation": "кислый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Âлâ",
+      "translation": "ну,ну-ка",
+      "partOfSpeech": "междометие,частица"
+    },
+    {
+      "word": "Âлâч",
+      "translation": "решето",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âли ачых",
+      "translation": "Щедрый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Âллям-гхâллям",
+      "translation": "ненадежный , безответственный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "âль",
+      "translation": "рука",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "âльдян чыхмах",
+      "translation": "выходить из- под контроля",
+      "partOfSpeech": "уст.выражение",
+      "comments": "изменить написание слова: âльдâн чыхмах"
+    },
+    {
+      "word": "Âл чâймах",
+      "translation": "избавляться"
+    },
+    {
+      "word": "âмбелâ",
+      "translation": "вот так",
+      "partOfSpeech": "частица"
+    },
+    {
+      "word": "âп",
+      "translation": "всё",
+      "partOfSpeech": "местоимение"
+    },
+    {
+      "word": "Âр",
+      "translation": "муж",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âрджан",
+      "translation": "холостой",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âрджиши",
+      "translation": "мужчина",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Âрûшджâн",
+      "translation": "забавный,шутливый, весёлый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Âрчащ",
+      "translation": "любой",
+      "partOfSpeech": "местоимение"
+    },
+    {
+      "word": "âсрâт гхалмах",
+      "translation": "тосковать,скучать",
       "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Бадибуди",
+      "translation": "попкорн",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бадош",
+      "translation": "фасоль",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Баджâнах",
@@ -550,16 +718,6 @@
     {
       "word": "Баджылых",
       "translation": "Подруга"
-    },
-    {
-      "word": "Бадибуди",
-      "translation": "попкорн",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Бадош",
-      "translation": "фасоль",
-      "partOfSpeech": "существительное"
     },
     {
       "word": "Базар",
@@ -581,8 +739,9 @@
       "translation": "танец греческий"
     },
     {
-      "word": "Бар дутмах",
-      "translation": "вести хоровод"
+      "word": "Барабар",
+      "translation": "Вместе",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Бармах",
@@ -595,8 +754,8 @@
       "partOfSpeech": "глагол"
     },
     {
-      "word": "бахгышламах",
-      "translation": "простить"
+      "word": "Бар дутмах",
+      "translation": "вести хоровод"
     },
     {
       "word": "Бахмах",
@@ -606,6 +765,11 @@
       "word": "Бахмах",
       "translation": "смотреть",
       "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Бахт",
+      "translation": "Судьба",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Бахтыли сâни!",
@@ -620,6 +784,15 @@
     {
       "word": "Бахтырмах",
       "translation": "Присматривать (показать доктору)"
+    },
+    {
+      "word": "Бахгырмах",
+      "translation": "кричать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "бахгышламах",
+      "translation": "простить"
     },
     {
       "word": "Баш",
@@ -644,6 +817,26 @@
       "partOfSpeech": "прилагательное"
     },
     {
+      "word": "бâдж",
+      "translation": "родинка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бâльчем",
+      "translation": "наверное",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "бâн",
+      "translation": "я",
+      "partOfSpeech": "личное местоимение"
+    },
+    {
+      "word": "Бâрâчâтли олсун",
+      "translation": "Будь благословен",
+      "partOfSpeech": "словосочетание"
+    },
+    {
       "word": "Бебан",
       "translation": "слабоумный",
       "partOfSpeech": "прилагательное"
@@ -652,6 +845,21 @@
       "word": "Бедуш",
       "translation": "невнимательный",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Беджâpâмах (Ищû беджâpâмиер)",
+      "translation": "Справляться  (С работой не справляется)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Беджâpьмах (Бище беджâpьмах, бôюч ищ тûр)",
+      "translation": "Уметь (Что-то уметь - большое дело), Справляться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Безâнмах",
+      "translation": "Наряжаться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Бездырмах",
@@ -666,6 +874,22 @@
     {
       "word": "Безяйли",
       "translation": "Нарядный"
+    },
+    {
+      "word": "Беймане",
+      "translation": "дурачок",
+      "partOfSpeech": "существительное",
+      "comments": "Обсудить дополнительно звучание (обе буквы е звучат как между е и э, нужен диакритик)"
+    },
+    {
+      "word": "Бейн",
+      "translation": "Мозг",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "белâ",
+      "translation": "Так. Выраж.: Ам белâ-вот так",
+      "partOfSpeech": "частица"
     },
     {
       "word": "Бели",
@@ -684,6 +908,26 @@
     {
       "word": "Бешич",
       "translation": "люлька",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Биабурчулух",
+      "translation": "Позор, Срам, Унижение",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Биабур олмах",
+      "translation": "Опозориться, Осрамиться, Унизиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Биабур этмах",
+      "translation": "Опозорить, Осрамить, Унизить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Биби",
+      "translation": "тетя",
       "partOfSpeech": "существительное"
     },
     {
@@ -716,32 +960,24 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Билâзич",
-      "translation": "браслет",
-      "partOfSpeech": "существительное"
-    },
-    {
       "word": "Билâч",
       "translation": "кисть",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Билязич",
-      "translation": "браслет"
+      "word": "Бирдâн",
+      "translation": "Вдруг",
+      "partOfSpeech": "наречие"
     },
     {
-      "word": "Бир - бише",
-      "translation": "что-нибудь",
-      "partOfSpeech": "местоимение"
-    },
-    {
-      "word": "Бир Вахыт",
-      "translation": "В одно время"
+      "word": "Бирдâн белâмâ",
+      "translation": "Ни с того ни сего",
+      "partOfSpeech": "Фразеологизм"
     },
     {
       "word": "Биричмах",
       "translation": "соединиться",
-      "partOfSpeech": "союз"
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Бирчâрâн",
@@ -749,8 +985,32 @@
       "partOfSpeech": "наречие"
     },
     {
-      "word": "Бит",
-      "translation": "Вошь"
+      "word": "Бир Вахыт",
+      "translation": "В одно время",
+      "partOfSpeech": "наречие",
+      "comments": "значение: когда-то, одныжды."
+    },
+    {
+      "word": "Бир заман",
+      "translation": "Когда-то, однажды",
+      "partOfSpeech": "наречие",
+      "comments": "обсудить дополнительно звучание (р смягчённая) Надо вынести на обсуждение в наш чат"
+    },
+    {
+      "word": "Бир солух",
+      "translation": "вмиг, быстро, на одном вздохе",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Бир сŷри или нахыр (халх джâльди)",
+      "translation": "Одно (Целое) стадо (о животных), Целая толпа (о людях), Много (людей приехало)",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Бир - бише",
+      "translation": "что-нибудь",
+      "partOfSpeech": "местоимение",
+      "comments": "обсудить е с диакритиком"
     },
     {
       "word": "Бит",
@@ -758,34 +1018,28 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Битâвыр",
-      "translation": "Не по себе",
-      "partOfSpeech": "Фразеологизм"
+      "word": "Битâвûр",
+      "translation": "1. странный. 2. особенный\" (с каким-то отклонением). Выраж.:"
     },
     {
-      "word": "Битиер",
-      "translation": "Растёт"
+      "word": "Битâвûp олмах- неважно",
+      "translation": "нехорошо чувствовать себя (Словосоч.),прилагательное ,"
+    },
+    {
+      "word": "Битâвыр",
+      "translation": "Не по себе",
+      "partOfSpeech": "Фразеологизм",
+      "comments": "Удалить, оставить значение из рабочего словаря"
     },
     {
       "word": "Битирмах",
-      "translation": "Вырастить что-то"
-    },
-    {
-      "word": "Битмâх",
-      "translation": "цвести",
-      "partOfSpeech": "глагол"
+      "translation": "Вырастить что-то",
+      "comments": "битûрмах"
     },
     {
       "word": "Битмах",
-      "translation": "Расти"
-    },
-    {
-      "word": "Битмиш",
-      "translation": "Вырос"
-    },
-    {
-      "word": "Бича",
-      "translation": "косить"
+      "translation": "Расти",
+      "comments": "удалить - оставить значение рабочего словаря"
     },
     {
       "word": "Бичах",
@@ -798,40 +1052,49 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Бише",
+      "translation": "1. Что-то. 2. Ничего. Выраж.: Бище ёх - Ничего нет",
+      "partOfSpeech": "местоимение, наречие",
+      "comments": "Обсудить дополнительно звучание (слышится щ) Надо вынести на обсуждение в наш чат"
+    },
+    {
       "word": "Биширмах",
       "translation": "варить,готовить",
-      "partOfSpeech": "глагол"
+      "partOfSpeech": "глагол",
+      "comments": "бишûрмах"
     },
     {
       "word": "Бишмиш",
-      "translation": "приготовился",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Биабур олмах",
-      "translation": "Опозориться, Осрамиться, Унизиться"
-    },
-    {
-      "word": "Биабурчулух",
-      "translation": "Позор, Срам, Унижение"
+      "translation": "сваренный",
+      "partOfSpeech": "причастие",
+      "comments": "бишмûш"
     },
     {
       "word": "Бозулмах",
-      "translation": "испортился",
-      "partOfSpeech": "глагол"
+      "translation": "испортиться",
+      "partOfSpeech": "глагол",
+      "comments": "1. испортиться, ломаться (о технике),  2.расстроиться (о делах). Выраж.: ищим бозулди - дело расстроилось"
     },
     {
       "word": "Бойни",
       "translation": "шея",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Бол Ахъаджи",
-      "translation": "швабра"
+      "partOfSpeech": "существительное",
+      "comments": "Боин - ед. число"
     },
     {
       "word": "Бологи",
       "translation": "редиска",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бол Ахъаджи",
+      "translation": "швабра",
+      "partOfSpeech": "существительное",
+      "comments": "бол ахгаджи"
+    },
+    {
+      "word": "Бондурух",
+      "translation": "ярмо",
       "partOfSpeech": "существительное"
     },
     {
@@ -840,28 +1103,84 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Бондурух",
-      "translation": "ярмо",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Бостан",
-      "translation": "огород"
-    },
-    {
       "word": "Бостан",
       "translation": "огород",
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Бохгоз",
+      "translation": "горло, глотка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бохгозли",
+      "translation": "1. прожорливый, 2. водолазка",
+      "partOfSpeech": "прилагательное",
+      "comments": "Надо вынести пункт 2 на обсуждение в наш чат"
+    },
+    {
+      "word": "Бохгулмах",
+      "translation": "подавиться, захлебнуться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Бош",
       "translation": "пустой",
-      "partOfSpeech": "наречие"
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Боятмах",
+      "translation": "Красить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Боях",
+      "translation": "Краска",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бôджŷч",
+      "translation": "Жук",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Бôюмах",
+      "translation": "глупец",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Бôюч",
+      "translation": "Большой"
     },
     {
       "word": "Бу",
       "translation": "этот",
-      "partOfSpeech": "местоимение"
+      "partOfSpeech": "Указ. местоимение"
+    },
+    {
+      "word": "Будамах",
+      "translation": "Бить, Лупить, Избивать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Будахланмах",
+      "translation": "Разветвляться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "буланмах",
+      "translation": "мутнеть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Булунмах",
+      "translation": "найтись",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Буннар",
+      "translation": "они,эти",
+      "partOfSpeech": "указат. местоимение"
     },
     {
       "word": "Бурда",
@@ -870,16 +1189,29 @@
     },
     {
       "word": "Бурнан Верма",
-      "translation": "не бормочи под нос"
+      "translation": "не бормочи под нос",
+      "comments": "удалить - выражение к слову 178"
     },
     {
       "word": "Бурни",
       "translation": "нос",
-      "partOfSpeech": "существительное"
+      "partOfSpeech": "существительное",
+      "comments": "бурун - нос в ед. числе"
     },
     {
       "word": "Бурхунди",
       "translation": "вывих",
+      "partOfSpeech": "существительное",
+      "comments": "бурхунмах - вывихнуть, глагол"
+    },
+    {
+      "word": "Бурхутмах",
+      "translation": "получить растяжение (руки,ноги)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Бухга",
+      "translation": "Бык",
       "partOfSpeech": "существительное"
     },
     {
@@ -888,21 +1220,50 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Бу саят та",
+      "translation": "в этот же час",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Бŷлŷджи",
+      "translation": "знающий",
+      "partOfSpeech": "Причастие"
+    },
+    {
+      "word": "Бŷльмах",
+      "translation": "знать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Быдыламах",
+      "translation": "Нашёптывать, шушукаться, шептать, бормотать, говорить что-то невнятное. Выраж.: нâ дûp быдылиерсûз?-"
+    },
+    {
       "word": "Былдыр",
-      "translation": "прошлый год"
+      "translation": "прошлый год",
+      "partOfSpeech": "словосочетание",
+      "comments": "в прошлом году"
     },
     {
       "word": "Быхъырмах",
       "translation": "кричать",
+      "partOfSpeech": "глагол",
+      "comments": "багхырмах - исправить"
+    },
+    {
+      "word": "Бюзюлмах",
+      "translation": "Скукожиться, Скривиться",
       "partOfSpeech": "глагол"
     },
     {
-      "word": "Вафтис",
-      "translation": "крещение"
+      "word": "Варли",
+      "translation": "Богатый, состоятельный",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Вахыт",
-      "translation": "Одно время"
+      "word": "Вафтис",
+      "translation": "крещение",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Вахыт",
@@ -910,25 +1271,51 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Вâтâн",
+      "translation": "Родина",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Вурмах",
-      "translation": "Бить, ударять"
+      "translation": "Бить, ударять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Вурулмах",
+      "translation": "1. биться, ударяться обо что-то. 2. вляпаться. 3. привязаться к кому-либо. 4. колоться",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Вурур - Дуймаз",
-      "translation": "недалекий человек"
+      "translation": "недалекий человек",
+      "partOfSpeech": "фразеологизм"
     },
     {
       "word": "Вурух",
-      "translation": "Битый"
+      "translation": "Битый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Габа",
+      "translation": "Платье",
+      "partOfSpeech": "существительное",
+      "comments": "01.02., 3:05"
     },
     {
       "word": "Гавиргот",
       "translation": "вид ткани",
-      "partOfSpeech": "существительное"
+      "partOfSpeech": "существительное",
+      "comments": "название ткани"
     },
     {
       "word": "гага",
-      "translation": "сладость(конфета,фрукт)"
+      "translation": "сладость(конфета,фрукт)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гагаламах",
+      "translation": "Клевать",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Гардишка",
@@ -937,60 +1324,170 @@
     },
     {
       "word": "Гарни",
-      "translation": "Живот"
+      "translation": "Живот",
+      "partOfSpeech": "существительное",
+      "comments": "гхарын"
     },
     {
       "word": "Гачи",
-      "translation": "Ножницы для стрижки овец"
-    },
-    {
-      "word": "Гачи, Гырхыных",
-      "translation": "Ножницы для стрижки Баранов",
+      "translation": "Ножницы для стрижки овец",
       "partOfSpeech": "существительное"
     },
     {
       "word": "Гашых",
-      "translation": "Ложка"
+      "translation": "Ложка",
+      "partOfSpeech": "существительное",
+      "comments": "гхашых"
     },
     {
       "word": "Гобал",
-      "translation": "Толкушка , чтобы помять картошку"
+      "translation": "Толкушка , чтобы помять картошку",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Гобич",
-      "translation": "Украшение на голове пожилых женщин"
+      "translation": "Украшение на голове пожилых женщин",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "гогоч",
-      "translation": "густой"
+      "translation": "густой",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "годоч",
-      "translation": "высмеивать"
-    },
-    {
-      "word": "годоч",
-      "translation": "початок кукурузы"
+      "translation": "початок кукурузы",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Голенеш",
-      "translation": "Неуклюжий"
+      "translation": "Неуклюжий",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Гумлямах",
-      "translation": "Чистить кастрюли песком"
+      "translation": "Чистить кастрюли песком",
+      "partOfSpeech": "глагол",
+      "comments": "гхумламах"
+    },
+    {
+      "word": "гызана",
+      "translation": "мальчик,с девичьями повадками"
+    },
+    {
+      "word": "гызигага",
+      "translation": "женоподобный мужчина"
+    },
+    {
+      "word": "Гылдийхлямах (Бâн габами гылдийхлядым)",
+      "translation": "Помять (Я платье помяла), Скомкать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гылдийхлянмах",
+      "translation": "1. Помяться. Выраж.: Бâнûм габам гылдийхлянди - Моё платье помялось; 2. Скомкаться, Запутаться. Выраж.: Телляр гылдийхлянди - Нитки запутались",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гылич",
+      "translation": "Сдобная булочка, лепешка"
+    },
+    {
+      "word": "Гыргыт",
+      "translation": "Жадный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гысса",
+      "translation": "Короткий"
+    },
+    {
+      "word": "Гышь",
+      "translation": "Зима"
+    },
+    {
+      "word": "Гхабаран",
+      "translation": "хвастающийся",
+      "partOfSpeech": "причастие"
+    },
+    {
+      "word": "Гхабаранли",
+      "translation": "Хвастливый",
+      "partOfSpeech": "прилагат"
     },
     {
       "word": "Гхабах",
-      "translation": "тыква"
+      "translation": "тыква",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Гхали",
-      "translation": "Дверь"
+      "word": "Гхайпах",
+      "translation": "Скользкий",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхан",
+      "translation": "кровь",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "гханаджахли",
+      "translation": "Сознательный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гханамах",
+      "translation": "кровить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "гханарли",
+      "translation": "Чуткий,понятливый",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Гхандырмах",
       "translation": "обЪяснить"
+    },
+    {
+      "word": "Гхапи",
+      "translation": "Дверь",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "гхарачи",
+      "translation": "Мрачный,пессимистичный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхара сахгыз",
+      "translation": "Жевательная резинка (гудрон)",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Гхаргхыш",
+      "translation": "Проклятье, Проклинание",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхаргхышламах",
+      "translation": "Проклинать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гхардаш",
+      "translation": "брат",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхачах",
+      "translation": "Разбойник, Беглец",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхача-гхача",
+      "translation": "бегом",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Гхачырмах",
@@ -1003,9 +1500,67 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "гхâдûр бŷльмах",
+      "translation": "ценить кого-то",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Гходжâ",
       "translation": "пожилой,старый",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхонах",
+      "translation": "Гость",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "гхорхах",
+      "translation": "Трусливый, боязливый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхочах",
+      "translation": "Храбрый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхоч (эрчâч)",
+      "translation": "Баран",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхоюн (дûшû)",
+      "translation": "Овца",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхоюрмах",
+      "translation": "Оставить",
+      "partOfSpeech": "глагол",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Гхувят",
+      "translation": "Сила",
+      "partOfSpeech": "существительное",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Гхувятти",
+      "translation": "Сильный",
+      "partOfSpeech": "прилагательное",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Гхузи",
+      "translation": "Ягненок",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхум",
+      "translation": "Песок",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "гхурбаха",
@@ -1016,12 +1571,68 @@
       "translation": "поясок"
     },
     {
+      "word": "Гхусмах",
+      "translation": "вырывать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гхути",
+      "translation": "Шкатулка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхызыл",
+      "translation": "Золото",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхызыл юмурта",
+      "translation": "Пасха (название православного праздника)",
+      "partOfSpeech": "существительное",
+      "comments": "досл.: Золотое яйцо."
+    },
+    {
+      "word": "Гхыймах",
+      "translation": "Скупиться, Жалеть, Жадничать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гхыймâт",
+      "translation": "Цена, Стоимость",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Гхыймâтâ гхоймах",
+      "translation": "Ценить, Уважать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Гхыймâтти",
+      "translation": "Ценный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Гхысгханмах",
+      "translation": "1. ревновать. 2. соблазниться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Гхысмâт",
       "translation": "удачливый"
     },
     {
+      "word": "Гхысмâт",
+      "translation": "Счастье, Удача",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Гхысмâтли",
       "translation": "счастливый"
+    },
+    {
+      "word": "Гхысмâтти",
+      "translation": "Счастливый, Удачливый",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Гхысыр Инâч",
@@ -1032,24 +1643,82 @@
       "translation": "Полотенце для ног"
     },
     {
-      "word": "гызана",
-      "translation": "мальчик,с девичьями повадками"
+      "word": "Гхыш",
+      "translation": "зима",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "гызигага",
-      "translation": "женоподобный мужчина"
+      "word": "Даи",
+      "translation": "дядя (со стороны матери)",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Гылич",
-      "translation": "Сдобная булочка, лепешка"
+      "word": "Далли-будахли",
+      "translation": "Ветвистый",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Гысса",
-      "translation": "Короткий"
+      "word": "Дана",
+      "translation": "Телёнок",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Гышь",
-      "translation": "Зима"
+      "word": "Даппаз",
+      "translation": "1. Подлый. 2. упрямый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Дар",
+      "translation": "Узкий"
+    },
+    {
+      "word": "Даранмах",
+      "translation": "причесываться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дарах",
+      "translation": "Расчёска"
+    },
+    {
+      "word": "Дардина Даил",
+      "translation": "Ему всё равно"
+    },
+    {
+      "word": "Дарыхмах",
+      "translation": "Переживать, Нервничать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дахъытмах",
+      "translation": "раздавать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дахг",
+      "translation": "1) Лес или дерево; 2) Гора",
+      "partOfSpeech": "существительное",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Даш",
+      "translation": "Камень",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дâвâ",
+      "translation": "Верблюд",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дâвûрû дôндâрмах",
+      "translation": "передумать ,изменить намерение",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дâджâpли",
+      "translation": "Стоящий (заслуживающий внимания, представляющий ценность)",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Дâли",
@@ -1071,59 +1740,29 @@
       "translation": "Беситься"
     },
     {
-      "word": "Дôшŷрмах",
-      "translation": "нарвать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дôшач",
-      "translation": "Матрас"
-    },
-    {
-      "word": "Дŷдýч",
-      "translation": "Дудка",
+      "word": "Дâмûр",
+      "translation": "Железо",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Дŷзляри, тарлалари сŷрмах",
-      "translation": "пахать пашню",
-      "partOfSpeech": "сущ+глагол"
-    },
-    {
-      "word": "Дŷльджâр",
-      "translation": "Плотник"
-    },
-    {
-      "word": "Дŷшŷнмах",
-      "translation": "думать,размашлять",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дŷшман",
-      "translation": "враг",
+      "word": "Дâнджûз",
+      "translation": "Море",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Дŷшмах",
-      "translation": "падать",
-      "partOfSpeech": "глагол"
+      "word": "Дâрâ",
+      "translation": "Овраг, Низина",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Дар",
-      "translation": "Узкий"
+      "word": "дâрын",
+      "translation": "глубокий",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Дарах",
-      "translation": "Расчёска"
-    },
-    {
-      "word": "Дардина Даил",
-      "translation": "Ему всё равно"
-    },
-    {
-      "word": "Дахъытмах",
-      "translation": "раздавать",
-      "partOfSpeech": "глагол"
+      "word": "дâрьмâн",
+      "translation": "лекарство",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Дейсымат",
@@ -1132,6 +1771,11 @@
     {
       "word": "Дейсымат",
       "translation": "Крестник"
+    },
+    {
+      "word": "Демах",
+      "translation": "1. сказать что-то, говорить. 2. То есть. Выраж.: Демах, сâн бŷльмиердûн? - То есть, ты не знал?",
+      "partOfSpeech": "1. глагол, 2. частица"
     },
     {
       "word": "Дерево",
@@ -1150,12 +1794,277 @@
       "translation": "вымя животных"
     },
     {
+      "word": "Диджитмах",
+      "translation": "Ворошить , копошить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дийнамах",
+      "translation": "Слушать"
+    },
+    {
+      "word": "Дийнятмах",
+      "translation": "Заставить слушать"
+    },
+    {
+      "word": "Диняин",
+      "translation": "Вчера"
+    },
+    {
+      "word": "дишâрдâ",
+      "translation": "снаружи",
+      "partOfSpeech": "наречие",
+      "comments": "объединить со строкой 115"
+    },
+    {
+      "word": "дишâрдâ",
+      "translation": "снаружи (направление действия)",
+      "partOfSpeech": "наречие",
+      "comments": "объединить со строкой 114"
+    },
+    {
+      "word": "дишâри",
+      "translation": "наружу,за пределом чего-то",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "дишâриси",
+      "translation": "обратная сторона,изнанка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Диши",
+      "translation": "Самка",
+      "partOfSpeech": "существительное",
+      "comments": "написание слова: дûши"
+    },
+    {
+      "word": "дишь",
+      "translation": "зуб",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дия Дия Ахзымда Туй Битти",
+      "translation": "Сколько можно об этом говорить"
+    },
+    {
+      "word": "Дûлâнмах",
+      "translation": "Попрошайничать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дûрûлмах",
+      "translation": "Приходить в сознание, Оживать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дûшь",
+      "translation": "Сон, Зуб, Сегмент (режущий элемент алмазного диска)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Доли",
+      "translation": "Полный"
+    },
+    {
+      "word": "Донмах",
+      "translation": "замерзнуть",
+      "partOfSpeech": "глагол",
+      "comments": "добавить значение: замерзать"
+    },
+    {
+      "word": "доргхи ŷзи",
+      "translation": "лицевая сторона",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дост",
+      "translation": "гость",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Достлух",
+      "translation": "гостеприимство",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "дôндâрмах",
+      "translation": "переворачивать,переводить (с какого-то языка)",
+      "partOfSpeech": "глагол",
+      "comments": "добавить значение: переиначивать"
+    },
+    {
+      "word": "дôнмах",
+      "translation": "измениться,повернуться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дôшач",
+      "translation": "Матрас"
+    },
+    {
+      "word": "Дôшŷрмах",
+      "translation": "нарвать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дува",
+      "translation": "Молитва, Пожелание",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дуваламах",
+      "translation": "Благославлять, Пожелать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дувар",
+      "translation": "стена",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дудуруш",
+      "translation": "медлительный",
+      "partOfSpeech": "прилагательный"
+    },
+    {
+      "word": "Дутаджах",
+      "translation": "Прихватки"
+    },
+    {
+      "word": "Дуур",
+      "translation": "Сват"
+    },
+    {
+      "word": "Дуур Хари",
+      "translation": "Сваха"
+    },
+    {
+      "word": "Дŷдýч",
+      "translation": "Дудка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "дŷджâ",
+      "translation": "Тёлка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "дŷджŷн",
+      "translation": "свадьба",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дŷзляри, тарлалари сŷрмах",
+      "translation": "пахать пашню",
+      "partOfSpeech": "сущ+глагол"
+    },
+    {
+      "word": "дŷзŷльмах",
+      "translation": "выстраиваться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дŷльджâр",
+      "translation": "Плотник"
+    },
+    {
+      "word": "Дŷшман",
+      "translation": "враг",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дŷшмах",
+      "translation": "падать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дŷшŷнмах",
+      "translation": "думать,размашлять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Дыбр",
+      "translation": "Вожак (в стаде овец), Козёл-провокатор",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "дыздыгхан",
+      "translation": "плакса"
+    },
+    {
+      "word": "Дырмых",
+      "translation": "Грабли",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дэв",
+      "translation": "Великан",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Дючюн",
+      "translation": "Свадьба"
+    },
+    {
+      "word": "Дярин",
+      "translation": "Глубокий"
+    },
+    {
+      "word": "Джаджâн",
+      "translation": "удача"
+    },
+    {
+      "word": "Джаккал",
+      "translation": "шакал",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джаккыл",
+      "translation": "коромысло",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джаккыл",
+      "translation": "коромысло"
+    },
+    {
+      "word": "джамош",
+      "translation": "1. Вол, Буйвол. 2.  Великан (сущ.), Упитанный (прилаг.) Выраж.: джамош адам- сильный,крепкий человек, полный, тучный",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джан",
+      "translation": "душа",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джана джâльмах",
+      "translation": "Ожить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джаным",
+      "translation": "душа моя",
+      "partOfSpeech": "Обращение"
+    },
+    {
+      "word": "джâдâч",
+      "translation": "Буйволёнок",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Джâзмах",
       "translation": "гулять"
     },
     {
       "word": "Джâзмах",
       "translation": "искать"
+    },
+    {
+      "word": "Джâлмах",
+      "translation": "приходить,приезжать",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Джâлынджâч- Ласка",
@@ -1185,8 +2094,102 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Джâpдâнни",
+      "translation": "Широкоплечий",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Джеджâ",
+      "translation": "ночь",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джеджâз хеира хъалсын!",
+      "translation": "Доброй ночи!",
+      "partOfSpeech": "междометие"
+    },
+    {
+      "word": "Джеинмах",
+      "translation": "одеваться",
+      "partOfSpeech": "глагол",
+      "comments": "Обсудить дополнительно звучание (буква е звучит как что-то среднее между е и э, нужен диакритик)"
+    },
+    {
+      "word": "Джеляч Йыл",
+      "translation": "Прошедший год"
+    },
+    {
+      "word": "Дженâ",
+      "translation": "ещё",
+      "partOfSpeech": "частица"
+    },
+    {
+      "word": "Джери",
+      "translation": "назад",
+      "partOfSpeech": "наречие",
+      "comments": "Обсудить дополнительно звучание (буква е звучит как что-то среднее между е и э, нужен диакритик)"
+    },
+    {
+      "word": "джеридâн",
+      "translation": "сзади, с задней стороны (направление). Выраж.: Джеридâн джâльмах - идти сзади, прийти позже",
+      "partOfSpeech": "наречие",
+      "comments": "Обсудить дополнительно звучание (буква е звучит как что-то среднее между е и э, нужен диакритик)"
+    },
+    {
+      "word": "джерûдâ",
+      "translation": "Сзади. Выраж.: Джеридâ гхалди - Остался сзади (Отстал)",
+      "partOfSpeech": "наречие",
+      "comments": "вынести Джерûсûнда на обсуждение в наш чат"
+    },
+    {
+      "word": "Джерûси",
+      "translation": "1. задняя сторона, 2. окончание, концовка. Выраж.: джерûcи нâ олди? - Чем закончилось?",
+      "partOfSpeech": "существительное",
+      "comments": "обсудить дополнительно звучание (буква е звучит как что-то среднее между е и э, нужен диакритик), Изменить на Джерисû - обсудить ???"
+    },
+    {
+      "word": "Джетмах",
+      "translation": "уходить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джечи",
+      "translation": "Коза",
+      "partOfSpeech": "существительное",
+      "comments": "Обсудить дополнительно звучание (буква е звучит как что-то среднее между е и э, нужен диакритик)"
+    },
+    {
+      "word": "Джечян Йыл",
+      "translation": "Наступающий год"
+    },
+    {
+      "word": "Джиннâнмах",
+      "translation": "Рассвирепеть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джирмах",
+      "translation": "Заходить (в помещение), Садиться (уменьшаться при стирке)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джûдâн",
+      "translation": "уходящий ( человек, который  уходит)",
+      "partOfSpeech": "причастие"
+    },
+    {
+      "word": "Джонджол",
+      "translation": "1. цветочные почки кустарника клекачки колхидской. 2. Закуска из нераспустившихся цветков кустарника клекачки колхидской",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Джôдж",
       "translation": "синий",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Джôджâз",
+      "translation": "ненасытный",
       "partOfSpeech": "прилагательное"
     },
     {
@@ -1199,6 +2202,11 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Джôзŷн айдын олсун",
+      "translation": "Поздравляю",
+      "partOfSpeech": "междометие"
+    },
+    {
       "word": "Джôз вермах",
       "translation": "Сглазить"
     },
@@ -1208,13 +2216,72 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Джôз гхалдырмамах",
+      "translation": "завидовать",
+      "partOfSpeech": "уст.выражение"
+    },
+    {
       "word": "Джôз хамышламах",
       "translation": "ослепляться",
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Джôль",
+      "translation": "Озеро, Лужа",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "джôммах",
+      "translation": "закапывать,хоронить",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Джôн",
       "translation": "кожа",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "джôрâcмах",
+      "translation": "соскучиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джôрŷнмах",
+      "translation": "Привидеться, Показаться (выходить из укрытия)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "джôрŷшмах",
+      "translation": "встретиться,увидеться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "джôтŷрмах",
+      "translation": "уносить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джузаль",
+      "translation": "Красивая",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Джума",
+      "translation": "пятница",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "джуфут",
+      "translation": "кровожадный"
+    },
+    {
+      "word": "джŷвâджи",
+      "translation": "жених",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "джŷз",
+      "translation": "осень",
       "partOfSpeech": "существительное"
     },
     {
@@ -1228,69 +2295,31 @@
       "partOfSpeech": "глагол"
     },
     {
-      "word": "Джаджâн",
-      "translation": "удача"
+      "word": "Джŷльмâли",
+      "translation": "Смешной",
+      "partOfSpeech": "прилагательное",
+      "comments": "есть ли такое слово ??"
     },
     {
-      "word": "Джаккал",
-      "translation": "шакал",
+      "word": "Джŷляш",
+      "translation": "Борьба",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Джаккыл",
-      "translation": "коромысло",
+      "word": "Джŷмŷш",
+      "translation": "Серебро",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Джаккыл",
-      "translation": "коромысло"
+      "word": "джŷн",
+      "translation": "день",
+      "partOfSpeech": "существительное",
+      "comments": "добавить значение: солнце"
     },
     {
-      "word": "Джан",
-      "translation": "душа",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Джаным",
-      "translation": "душа моя",
-      "partOfSpeech": "Обращение"
-    },
-    {
-      "word": "Джеджâ",
-      "translation": "ночь",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Джеджâз хеира хъалсын!",
-      "translation": "Доброй ночи!",
-      "partOfSpeech": "междометие"
-    },
-    {
-      "word": "Джеляч Йыл",
-      "translation": "Прошедший год"
-    },
-    {
-      "word": "Дженâ",
-      "translation": "ещё",
-      "partOfSpeech": "частица"
-    },
-    {
-      "word": "Джетмах",
-      "translation": "уходить",
+      "word": "Джŷрлâмах",
+      "translation": "Греметь (о грозе)",
       "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джечян Йыл",
-      "translation": "Наступающий год"
-    },
-    {
-      "word": "Джузаль",
-      "translation": "Красивая",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "джуфут",
-      "translation": "кровожадный"
     },
     {
       "word": "Джывыламах",
@@ -1313,6 +2342,11 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Джыгырли",
+      "translation": "Растрёпанный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Джылдийхлâнмах",
       "translation": "разорвать",
       "partOfSpeech": "глагол"
@@ -1320,6 +2354,26 @@
     {
       "word": "Джылдич",
       "translation": "лохмотья,ветошь",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Джырмаламмах",
+      "translation": "Царапаться, Усердствовать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джырмах",
+      "translation": "Царапать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джырылмах",
+      "translation": "Кричать (истошно)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Джюдж( И)",
+      "translation": "Сила",
       "partOfSpeech": "существительное"
     },
     {
@@ -1331,91 +2385,103 @@
       "translation": "Гулять"
     },
     {
-      "word": "Диджитмах",
-      "translation": "Ворошить , копошить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дийнамах",
-      "translation": "Слушать"
-    },
-    {
-      "word": "Дийнятмах",
-      "translation": "Заставить слушать"
-    },
-    {
-      "word": "Диняин",
-      "translation": "Вчера"
-    },
-    {
-      "word": "Дия Дия Ахзымда Туй Битти",
-      "translation": "Сколько можно об этом говорить"
-    },
-    {
-      "word": "Доли",
-      "translation": "Полный"
-    },
-    {
-      "word": "Дост",
-      "translation": "гость",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Достлух",
-      "translation": "гостеприимство",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дувар",
-      "translation": "стена",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дудуруш",
-      "translation": "медлительный",
-      "partOfSpeech": "прилагательный"
-    },
-    {
-      "word": "Дутаджах",
-      "translation": "Прихватки"
-    },
-    {
-      "word": "Дуур",
-      "translation": "Сват"
-    },
-    {
-      "word": "Дуур Хари",
-      "translation": "Сваха"
-    },
-    {
-      "word": "дыздыгхан",
-      "translation": "плакса"
-    },
-    {
-      "word": "Дырмых",
-      "translation": "Грабли",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дючюн",
-      "translation": "Свадьба"
-    },
-    {
-      "word": "Дярин",
-      "translation": "Глубокий"
-    },
-    {
       "word": "еЕшил",
       "translation": "зеленый",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Елли баба",
+      "translation": "Праздник Петра и Павла",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в  значение: название цирковного праздника + дата"
+    },
+    {
+      "word": "елли-елли",
+      "translation": "быстро",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "ельпâрâч",
+      "translation": "ветренный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Емах",
+      "translation": "еда",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Емлых",
+      "translation": "желудок",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Енджиляч",
+      "translation": "лёгкий,легкомысленный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Ер",
+      "translation": "Земля (покрытие, пол)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Еримах",
+      "translation": "ходить"
+    },
+    {
+      "word": "ерûшмах",
+      "translation": "успевать,догонять",
+      "partOfSpeech": "глагол",
+      "comments": "объедиить со строкой 139"
+    },
+    {
+      "word": "ерûшмах",
+      "translation": "созревать",
+      "partOfSpeech": "глагол",
+      "comments": "объедиить со строкой 138"
+    },
+    {
+      "word": "Ерьлâшмах",
+      "translation": "Размещаться, Располагаться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ерьлâштûрмах",
+      "translation": "Размещать, Раскладывать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ерь ойнамаси",
+      "translation": "Землетрясение",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ер Алмаси",
+      "translation": "топинамбур"
+    },
+    {
+      "word": "Етûм",
+      "translation": "Сирота",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Етмах",
+      "translation": "1) Хватать (в смысле быть достаточным)",
+      "partOfSpeech": "глагол",
+      "comments": "01.02., 3:24"
+    },
+    {
+      "word": "Ехари",
+      "translation": "Верх"
     },
     {
       "word": "Ёлдаш",
       "translation": "Друг"
     },
     {
-      "word": "Емах",
-      "translation": "еда",
+      "word": "ёлдашлых",
+      "translation": "Дружба",
       "partOfSpeech": "существительное"
     },
     {
@@ -1424,34 +2490,47 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Ер Алмаси",
-      "translation": "топинамбур"
-    },
-    {
-      "word": "Еримах",
-      "translation": "ходить"
-    },
-    {
       "word": "Ёрхан Сырымах",
       "translation": "Стегать",
       "partOfSpeech": "глагол"
     },
     {
-      "word": "Ехари",
-      "translation": "Верх"
+      "word": "ёхар",
+      "translation": "верх",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "ёхарда",
+      "translation": "вверху",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Жûрбû",
+      "translation": "проворный, шустрый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Заболел И Похудел",
+      "translation": "Билязич"
+    },
+    {
+      "word": "Заман",
+      "translation": "время",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Зâймâт олмасын",
       "translation": "пусть вас не затруднит"
     },
     {
+      "word": "Зâйхля джôтŷpмах",
+      "translation": "Надоедать, Доставать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Зâнджын",
       "translation": "Богатый",
       "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Заболел И Похудел",
-      "translation": "Билязич"
     },
     {
       "word": "Зиарат",
@@ -1467,9 +2546,24 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Изан",
+      "translation": "Умение, Талант, Мастерство",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Изанни",
       "translation": "способный,талантливый",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Изанни",
+      "translation": "Талантливый, Умелый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Изûн",
+      "translation": "Разрешение",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Илич",
@@ -1498,9 +2592,40 @@
       "partOfSpeech": "прилагательное"
     },
     {
+      "word": "Ирах",
+      "translation": "Далеко, Прочь",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Ирах этсûн",
+      "translation": "Пусть обойдёт стороной (плохое)",
+      "partOfSpeech": "Фразеологизм"
+    },
+    {
+      "word": "ирâлдâ",
+      "translation": "впереди",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "ирâлдâн",
+      "translation": "спереди",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "ирâли",
+      "translation": "перед",
+      "partOfSpeech": "прилагательное",
+      "comments": "добавить значение: вперед (ирâли джеч) + часть речи: наречие"
+    },
+    {
       "word": "Ирâнч",
       "translation": "цвет",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ирûлмах",
+      "translation": "Увеличиваться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Ирках",
@@ -1520,8 +2645,18 @@
       "translation": "Бол ахачи"
     },
     {
+      "word": "Истâмах",
+      "translation": "Хотеть, Желать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Истол",
       "translation": "Стол"
+    },
+    {
+      "word": "Исыргхан",
+      "translation": "Крапива",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Ит",
@@ -1531,6 +2666,29 @@
     {
       "word": "Итмах",
       "translation": "пропасть,исчезнуть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ичи",
+      "translation": "два",
+      "partOfSpeech": "числительное",
+      "comments": "объединить со строкой 150"
+    },
+    {
+      "word": "Ичи",
+      "translation": "нутро,внутренность",
+      "partOfSpeech": "существительное",
+      "comments": "объединить со строкой 149"
+    },
+    {
+      "word": "Ичинда",
+      "translation": "внутри",
+      "partOfSpeech": "наречие прилагательное",
+      "comments": "добавить значение: внутри чего-то"
+    },
+    {
+      "word": "Ичмах",
+      "translation": "пить,выпивать",
       "partOfSpeech": "глагол"
     },
     {
@@ -1557,6 +2715,11 @@
       "partOfSpeech": "вводное соово"
     },
     {
+      "word": "Иштем",
+      "translation": "Бы",
+      "partOfSpeech": "Частица, Союз"
+    },
+    {
       "word": "Ишых",
       "translation": "свет",
       "partOfSpeech": "существительное"
@@ -1574,6 +2737,31 @@
       "word": "Йолун ŷсти",
       "translation": "улица",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Йыл",
+      "translation": "год",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Йыл",
+      "translation": "год",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Йылдырмах",
+      "translation": "Надоедать, Донимать, Досаждать, Доставать, Утомлять, Допекать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Йылдырым",
+      "translation": "Шаровая молния",
+      "partOfSpeech": "Прилагательное + существительное"
+    },
+    {
+      "word": "Йылмах",
+      "translation": "надоесть, утомляться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Канкулли - Кункулли",
@@ -1594,8 +2782,23 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Кор",
+      "translation": "слепой",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Коргхуш",
+      "translation": "сова",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Коркозия",
       "translation": "Крыжовник"
+    },
+    {
+      "word": "Кор олем",
+      "translation": "Бедняжка",
+      "partOfSpeech": "междометие"
     },
     {
       "word": "Костюм Шарвал",
@@ -1607,8 +2810,18 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Кутур",
+      "translation": "Град, Хрящ",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Кырнель",
       "translation": "Катушка"
+    },
+    {
+      "word": "Кыстанка",
+      "translation": "малышка",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "лазут",
@@ -1617,6 +2830,21 @@
     {
       "word": "лазут хашыли",
       "translation": "кукурузная каша"
+    },
+    {
+      "word": "Лайых",
+      "translation": "Уместный, Подходящий",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Лайых джôpмах",
+      "translation": "Одобрять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Лал",
+      "translation": "немой",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Лахана",
@@ -1628,8 +2856,74 @@
       "translation": "Коляда"
     },
     {
+      "word": "Лохма",
+      "translation": "кусок хлеба",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Лохса",
+      "translation": "роженица",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Ляпчик",
       "translation": "Тарелка для первого блюда"
+    },
+    {
+      "word": "Маалых",
+      "translation": "Закваска"
+    },
+    {
+      "word": "Магарыч",
+      "translation": "угощение в виде алкоголя",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Майхош",
+      "translation": "Кисло-сладкий",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Мал",
+      "translation": "Ткань,материал",
+      "partOfSpeech": "существительное",
+      "comments": "объединить со строкой 168"
+    },
+    {
+      "word": "Мал",
+      "translation": "животное, скот",
+      "partOfSpeech": "существительное",
+      "comments": "объединить со строкой 167"
+    },
+    {
+      "word": "Мал",
+      "translation": "Скот",
+      "partOfSpeech": "существительное",
+      "comments": "удалить (повтор)"
+    },
+    {
+      "word": "Масхгара",
+      "translation": "смешной",
+      "partOfSpeech": "прилагательное",
+      "comments": "добавить значение: шутник + добавить часть речи (существительное)"
+    },
+    {
+      "word": "Матрах",
+      "translation": "Кнут"
+    },
+    {
+      "word": "Матрах",
+      "translation": "кнут"
+    },
+    {
+      "word": "Махас",
+      "translation": "Ножницы",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "мâдâч",
+      "translation": "Буйвол",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Мâджâл",
@@ -1647,9 +2941,34 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "мâлâмах",
+      "translation": "блеять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "мâлâмâз",
+      "translation": "никчёмный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "мâлâшмах",
+      "translation": "рыдать,причитать(на похоронах)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Мâнзûл",
+      "translation": "Миг (короткий промежуток времени)",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Мâрâфатли",
       "translation": "умелый",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Мâрâфâт",
+      "translation": "Умение, Талант, Мастерство",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Мâсâл",
@@ -1662,21 +2981,15 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Маалых",
-      "translation": "Закваска"
+      "word": "Мâpâфâтти",
+      "translation": "Сильный, (Мастеровитый)",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Матрах",
-      "translation": "Кнут"
-    },
-    {
-      "word": "Матрах",
-      "translation": "кнут"
-    },
-    {
-      "word": "Махас",
-      "translation": "Ножницы",
-      "partOfSpeech": "существительное"
+      "word": "Медаморфоз",
+      "translation": "Преображение Господне (Яблочный спас)",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
     },
     {
       "word": "мейва",
@@ -1699,6 +3012,12 @@
       "translation": "христианская традиция (отправить весть о кумовстве)"
     },
     {
+      "word": "Мерьямана",
+      "translation": "Успение Пресвятой Богородицы",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
+    },
+    {
       "word": "Мисâвр",
       "translation": "важный гость"
     },
@@ -1711,6 +3030,16 @@
       "translation": "бар"
     },
     {
+      "word": "Мозич",
+      "translation": "Бычок",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Мосмор",
+      "translation": "Пухлячок",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Мум",
       "translation": "свечка",
       "partOfSpeech": "существительное"
@@ -1721,14 +3050,19 @@
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Нâ",
-      "translation": "частица отрицательная",
-      "partOfSpeech": "ни"
+      "word": "Мурдар",
+      "translation": "Противный",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Нâ?",
-      "translation": "вопросительное местоимение",
-      "partOfSpeech": "что?"
+      "word": "мухгам",
+      "translation": "жанр азербайджанской традиционой музыки",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "наз",
+      "translation": "каприз",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Назли",
@@ -1757,18 +3091,69 @@
       "translation": "Совесть"
     },
     {
+      "word": "Нарын",
+      "translation": "болезенный ( с каким-то физическим отклонением)",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Нарынджи",
       "translation": "оранжевый",
       "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Нахартан, Нахартен",
+      "translation": "Сколько, Насколько",
+      "partOfSpeech": "Местоимение, Наречие",
+      "comments": "Вынесено на общее обсуждение"
+    },
+    {
+      "word": "Нахартен",
+      "translation": "Насколько",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Нахыр",
       "translation": "Стадо"
     },
     {
+      "word": "нахыш",
+      "translation": "отметина, наряд",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "нахышли",
+      "translation": "меченый, нарядный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Нâ",
+      "translation": "частица отрицательная",
+      "partOfSpeech": "ни"
+    },
+    {
+      "word": "Нâмâpт",
+      "translation": "Подлость, Злодеяние",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Нâ?",
+      "translation": "вопросительное местоимение",
+      "partOfSpeech": "что?"
+    },
+    {
+      "word": "Нервûлянмах",
+      "translation": "Нервничать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Неряя хâдар",
       "translation": "докуда",
       "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Нини",
+      "translation": "обращение к матери,тетям",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Нишан",
@@ -1777,6 +3162,21 @@
     {
       "word": "Нишан",
       "translation": "сватовство"
+    },
+    {
+      "word": "нияти дôнмах",
+      "translation": "передумать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "О",
+      "translation": "он,она,оно",
+      "partOfSpeech": "личное местоимение"
+    },
+    {
+      "word": "О",
+      "translation": "это",
+      "partOfSpeech": "указательное местоимение"
     },
     {
       "word": "Обирчен",
@@ -1804,9 +3204,24 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Одуннан",
+      "translation": "Из дерева",
+      "partOfSpeech": "Предлог + Существительное"
+    },
+    {
+      "word": "Одунни",
+      "translation": "Деревянный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Ойнамах",
       "translation": "играть,танцевать",
       "partOfSpeech": "глагол"
+    },
+    {
+      "word": "окгхабаз",
+      "translation": "Хвастун,выскочка",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Олачи",
@@ -1827,6 +3242,27 @@
       "translation": "Можно (ли)"
     },
     {
+      "word": "Оннар",
+      "translation": "они,те",
+      "partOfSpeech": "местоимение ,форма падежей",
+      "comments": "изменить часть речи: указательное местоимение"
+    },
+    {
+      "word": "оннарын",
+      "translation": "их",
+      "partOfSpeech": "притяж.местоимене"
+    },
+    {
+      "word": "онун",
+      "translation": "его,ее",
+      "partOfSpeech": "притяж.местоимене"
+    },
+    {
+      "word": "Онучун чи",
+      "translation": "Потому что",
+      "partOfSpeech": "союз"
+    },
+    {
       "word": "Орда",
       "translation": "там",
       "partOfSpeech": "наречие"
@@ -1835,6 +3271,11 @@
       "word": "Ордан",
       "translation": "оттуда",
       "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Орта",
+      "translation": "Середина",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Ортюк",
@@ -1851,12 +3292,28 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Осанмах",
+      "translation": "Лениться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "От",
       "translation": "Трава"
     },
     {
+      "word": "От",
+      "translation": "Трава",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Отурмах",
       "translation": "Сидеть"
+    },
+    {
+      "word": "Охартан, Охартен",
+      "translation": "Столько, Настолько",
+      "partOfSpeech": "Наречие, Числительное",
+      "comments": "Вынесено на общее обсуждение"
     },
     {
       "word": "Охумах",
@@ -1868,8 +3325,119 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Оюн",
+      "translation": "Смешной, Нелепый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Оюннух",
+      "translation": "Посмешище",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Оюн олмах",
       "translation": "опозориться"
+    },
+    {
+      "word": "Оюн олмах",
+      "translation": "Стать посмешищем",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "О сыра",
+      "translation": "Тогда",
+      "partOfSpeech": "Наречие , союз"
+    },
+    {
+      "word": "Ôзджâ",
+      "translation": "другой",
+      "partOfSpeech": "местоимение"
+    },
+    {
+      "word": "Ôзджâсû",
+      "translation": "Другой",
+      "partOfSpeech": "прилагательное",
+      "comments": "01.02., 3:24, перенести в эталонный (строка 19)"
+    },
+    {
+      "word": "ôйсŷрмах",
+      "translation": "кашлять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "ôйхмâт",
+      "translation": "государство,страна",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "ôли",
+      "translation": "покойник",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: похороны"
+    },
+    {
+      "word": "Ôлŷм",
+      "translation": "смерть",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ôльмах",
+      "translation": "умирать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ôльмах",
+      "translation": "Умереть, Убиваться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ôмŷр",
+      "translation": "жизнь",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ôмŷрŷн узун олсун",
+      "translation": "живи долго",
+      "partOfSpeech": "глагол-наречие"
+    },
+    {
+      "word": "Ôрджâнмах",
+      "translation": "научиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ôрти",
+      "translation": "постель",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ôрти халдырмах",
+      "translation": "заправлять постель"
+    },
+    {
+      "word": "Ôрŷмджâч",
+      "translation": "паук,паутина",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "ôчŷз",
+      "translation": "Вол",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Пайхырмах",
+      "translation": "Сердиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Пакламах",
+      "translation": "чистить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Парча",
+      "translation": "Ткань",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Парыч(Пардыч)",
@@ -1878,6 +3446,31 @@
     {
       "word": "Патишах",
       "translation": "Царь"
+    },
+    {
+      "word": "Паттамах",
+      "translation": "Изнемогать (от жары),Терзаться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Патыламах",
+      "translation": "Взрываться, Лопаться, Стрелять, Лопать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Патылатмах",
+      "translation": "Взрывать, Взорвать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Пâрûз",
+      "translation": "Пост",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Пâрûз дутмах",
+      "translation": "Поститься",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Пейныр",
@@ -1920,6 +3513,16 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Пишман олмах",
+      "translation": "Пожалеть (о чём-то)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Порсух",
+      "translation": "барсук",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Постал",
       "translation": "Обувь"
     },
@@ -1941,6 +3544,12 @@
       "translation": "Морковь"
     },
     {
+      "word": "пысгхырмах",
+      "translation": "чихать",
+      "partOfSpeech": "глагол",
+      "comments": "изменить написание слова: пысхгырмах"
+    },
+    {
       "word": "Пялтяйлиер",
       "translation": "Заикается",
       "partOfSpeech": "глагол"
@@ -1952,64 +3561,6 @@
     {
       "word": "С",
       "translation": "Выключить"
-    },
-    {
-      "word": "Сâвишламмах",
-      "translation": "всеобщая радость",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сâвмах",
-      "translation": "любить,влюбляться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сâвыммах",
-      "translation": "радоваться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сâпâт",
-      "translation": "корзина",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сâрмах",
-      "translation": "стелить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сâрт",
-      "translation": "жесткий,принципиальный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Сâрчâ",
-      "translation": "Ласточка"
-    },
-    {
-      "word": "Сâчи",
-      "translation": "Тахта, деревянная кровать"
-    },
-    {
-      "word": "Сôз",
-      "translation": "слова",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сŷлюч",
-      "translation": "слизень",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сŷрмах",
-      "translation": "водить какой-то транспорт",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сŷртмах",
-      "translation": "намазать",
-      "partOfSpeech": "глагол"
     },
     {
       "word": "Сабах",
@@ -2037,8 +3588,23 @@
       "translation": "Любить"
     },
     {
+      "word": "сайхû",
+      "translation": "Уважение,послушание",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сакхал",
+      "translation": "Борода",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Сали",
       "translation": "Среда",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Салли",
+      "translation": "вторник",
       "partOfSpeech": "существительное"
     },
     {
@@ -2099,6 +3665,16 @@
       "partOfSpeech": "междометие"
     },
     {
+      "word": "Сахгыр",
+      "translation": "глухой",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Сахг джан",
+      "translation": "Здоровый человек",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
       "word": "Сач",
       "translation": "Волос"
     },
@@ -2107,8 +3683,72 @@
       "translation": "Деньги на свадьбу"
     },
     {
+      "word": "Саяпсыз",
+      "translation": "Без роду и племени, Бесхозный",
+      "partOfSpeech": "Фразеологизм, Прилагательное"
+    },
+    {
+      "word": "Саяп (саяби)",
+      "translation": "Хозяин",
+      "partOfSpeech": "существительное",
+      "comments": "добавить значение: собственник"
+    },
+    {
       "word": "Саят",
       "translation": "часы",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сâвишламмах",
+      "translation": "всеобщая радость",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сâвмах",
+      "translation": "любить,влюбляться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сâвыммах",
+      "translation": "радоваться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "сâн",
+      "translation": "ты",
+      "partOfSpeech": "личное местоимение"
+    },
+    {
+      "word": "Сâпâт",
+      "translation": "корзина",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сâрмах",
+      "translation": "стелить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сâрт",
+      "translation": "жесткий,принципиальный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Сâрчâ",
+      "translation": "Ласточка"
+    },
+    {
+      "word": "Сâчи",
+      "translation": "Тахта, деревянная кровать"
+    },
+    {
+      "word": "Сеер этмах",
+      "translation": "наблюдать за зрелищем",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сел",
+      "translation": "Потоп, Наводнение",
       "partOfSpeech": "существительное"
     },
     {
@@ -2120,6 +3760,12 @@
       "translation": "Погасить"
     },
     {
+      "word": "Сизь",
+      "translation": "вы",
+      "partOfSpeech": "личное местоимение",
+      "comments": "измнить написание слова: cûз"
+    },
+    {
       "word": "Сильмах",
       "translation": "протирать",
       "partOfSpeech": "глагол"
@@ -2128,6 +3774,11 @@
       "word": "Синâч",
       "translation": "муха",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сирвû",
+      "translation": "Острый",
+      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Сирчâ",
@@ -2158,10 +3809,25 @@
       "translation": "Влево"
     },
     {
+      "word": "Солух",
+      "translation": "вздох. Выраж.: Солухгуми аламиерым- не могу вздохнуть",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Сомун",
       "translation": "Хлеб"
     },
     {
+      "word": "Сонхги",
+      "translation": "Конец",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "сормах",
+      "translation": "спрашивать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Сохъан",
       "translation": "лук",
       "partOfSpeech": "существительное"
@@ -2170,10 +3836,25 @@
       "word": "Сохъан",
       "translation": "лук",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Союнмах",
+      "translation": "раздеваться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Соютмах",
       "translation": "остудить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сôз",
+      "translation": "слова",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сôндŷрмах",
+      "translation": "тушить",
       "partOfSpeech": "глагол"
     },
     {
@@ -2202,6 +3883,41 @@
       "translation": "крестить"
     },
     {
+      "word": "Су басмах",
+      "translation": "Наводнять",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сŷлюч",
+      "translation": "слизень",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сŷпŷpджâ",
+      "translation": "Веник",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Сŷрмах",
+      "translation": "водить какой-то транспорт",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сŷртмах",
+      "translation": "намазать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Сŷpмя",
+      "translation": "Ящик выдвижной",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Сыджахлых",
+      "translation": "температура",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Сызлâмах",
       "translation": "чувствовать острую боль"
     },
@@ -2216,46 +3932,18 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Сыхылмах",
+      "translation": "1) Чувствовать острую боль; 2) Тесниться",
+      "partOfSpeech": "глагол",
+      "comments": "01.02., 2:40"
+    },
+    {
       "word": "Сычан",
       "translation": "Мышь"
     },
     {
       "word": "Сюупюрджя",
       "translation": "Веник"
-    },
-    {
-      "word": "Тâвырсыз",
-      "translation": "грязный,безобразный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Тâзâч",
-      "translation": "Кизяк"
-    },
-    {
-      "word": "Тâр",
-      "translation": "пот",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Тâрбиясыз",
-      "translation": "неприличный,недостойный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Тâрс",
-      "translation": "человек,который делает все наоборот",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Тâч",
-      "translation": "один",
-      "partOfSpeech": "числительное"
-    },
-    {
-      "word": "Тŷчŷрмах",
-      "translation": "плевать",
-      "partOfSpeech": "глагол"
     },
     {
       "word": "Табах",
@@ -2278,6 +3966,11 @@
       "translation": "Жеребнок"
     },
     {
+      "word": "тайдаш",
+      "translation": "ровесник",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Танымах",
       "translation": "Знать, узнавать"
     },
@@ -2295,6 +3988,11 @@
       "translation": "Чётки"
     },
     {
+      "word": "Тахта бити",
+      "translation": "Клоп",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "таюх",
       "translation": "курица",
       "partOfSpeech": "существительное"
@@ -2302,6 +4000,67 @@
     {
       "word": "Тая",
       "translation": "стог сена"
+    },
+    {
+      "word": "Тâвырсыз",
+      "translation": "грязный,безобразный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Тâзâ",
+      "translation": "Новый",
+      "partOfSpeech": "прилагательное",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Тâзâч",
+      "translation": "Кизяк"
+    },
+    {
+      "word": "Тâр",
+      "translation": "пот",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Тâрбиясыз",
+      "translation": "неприличный,недостойный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "тâрпâнмах",
+      "translation": "шевелиться,тронуться с места",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тâрс",
+      "translation": "человек,который делает все наоборот",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "тâрчâнлâнмах",
+      "translation": "терять равновесие",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тâч",
+      "translation": "один",
+      "partOfSpeech": "числительное"
+    },
+    {
+      "word": "Тâч чам ( Сŷдди)",
+      "translation": "Троица",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
+    },
+    {
+      "word": "Тâpпâнмах",
+      "translation": "Тронуться с места, Дёргаться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тез-тез",
+      "translation": "быстро",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Тель",
@@ -2325,13 +4084,23 @@
       "translation": "Лиса"
     },
     {
+      "word": "Тичâн",
+      "translation": "колючка",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "тич дурмах",
       "translation": "стоять прямо"
     },
     {
-      "word": "Тичâн",
-      "translation": "колючка",
-      "partOfSpeech": "существительное"
+      "word": "Тûйхмах",
+      "translation": "Шить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тûйх, Тûйх дурмах, Тûйх ойнатмах",
+      "translation": "Прямо, Стоять прямо, по стойке смирно, Заставлять плясать под дудку",
+      "partOfSpeech": "Наречие, Наречный оборот, Словосочетание (устойчивое выражение)"
     },
     {
       "word": "Тоз",
@@ -2340,6 +4109,17 @@
     {
       "word": "Тозли",
       "translation": "Пыльный"
+    },
+    {
+      "word": "Томарли",
+      "translation": "Вместе",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Томбул тâпâ",
+      "translation": "Радоница",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
     },
     {
       "word": "Топламах",
@@ -2360,9 +4140,19 @@
       "translation": "пусть земля будет пухом"
     },
     {
+      "word": "Торун",
+      "translation": "внук,внучка",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "тохаламах",
       "translation": "тяпать",
       "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тохли",
+      "translation": "Барашек",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Тохум",
@@ -2384,8 +4174,34 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "турши",
+      "translation": "соленья",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Туч",
       "translation": "Чугунное блюдо"
+    },
+    {
+      "word": "тŷрчи",
+      "translation": "песня",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Тŷтŷн",
+      "translation": "дым",
+      "partOfSpeech": "существительное",
+      "comments": "добавить значение:  табак"
+    },
+    {
+      "word": "Тŷчŷрмах",
+      "translation": "плевать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Тыпылатмах (Ŷpâджûм тыпылади)",
+      "translation": "Ёкнуть (Сердце ёкнуло), Дрогнуть",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Тыс тымбылич",
@@ -2408,8 +4224,25 @@
       "translation": "Гора"
     },
     {
+      "word": "Тярс тараф",
+      "translation": "изнанка",
+      "partOfSpeech": "существительное",
+      "comments": "изменить написание слова: тâрс"
+    },
+    {
+      "word": "тярс ŷзи",
+      "translation": "обратная сторона",
+      "partOfSpeech": "существительное",
+      "comments": "изменить написание слова: тâрс,добавить значение:  изнаночная сторона"
+    },
+    {
       "word": "Тяюьдирсыз",
       "translation": "Нечистоплотный"
+    },
+    {
+      "word": "Узалмах",
+      "translation": "Расти, Удлиниться",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Узах",
@@ -2423,6 +4256,12 @@
     {
       "word": "Узюч",
       "translation": "Кольцо"
+    },
+    {
+      "word": "Уймах",
+      "translation": "1) Ладить; 2) Подходить",
+      "partOfSpeech": "глагол",
+      "comments": "01.02., 2:40"
     },
     {
       "word": "Умузи",
@@ -2450,6 +4289,11 @@
       "translation": "Напёрсток"
     },
     {
+      "word": "Утанмах",
+      "translation": "Стыдиться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Ухи",
       "translation": "сон",
       "partOfSpeech": "существительное"
@@ -2465,8 +4309,23 @@
       "partOfSpeech": "фразеологизм"
     },
     {
+      "word": "Ухгуз",
+      "translation": "Упрямый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Учан Сычан",
       "translation": "Летучая мышь"
+    },
+    {
+      "word": "Ушах",
+      "translation": "ребенок",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ушахлар",
+      "translation": "дети,ребята",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Уюмах",
@@ -2477,9 +4336,92 @@
       "translation": "Усыпить кого-то"
     },
     {
-      "word": "Фâрым ёх",
-      "translation": "нет сил",
-      "partOfSpeech": "фразеологизм"
+      "word": "Уянмах",
+      "translation": "Просыпаться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Уяртмах",
+      "translation": "Будить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ŷджŷpâ",
+      "translation": "Ящик выдвижной ( Из Груз.Яз.)",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "ŷзиджŷлянчли",
+      "translation": "Улыбчивый",
+      "partOfSpeech": "прилагательное",
+      "comments": "удалить (повтор)"
+    },
+    {
+      "word": "ŷзиджŷляшли",
+      "translation": "обаятельный, улыбчивый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Ŷрâджим хъопди",
+      "translation": "Сердце вздрогнуло",
+      "partOfSpeech": "сущ+глагол"
+    },
+    {
+      "word": "Ŷрâч",
+      "translation": "Сердце",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Ŷрŷзджяр",
+      "translation": "1) Климат; 2) Воздух",
+      "partOfSpeech": "существительное",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "ŷсти",
+      "translation": "верх",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "ŷстŷмŷзâ",
+      "translation": "на нас",
+      "partOfSpeech": "предлог,частица,междонометие"
+    },
+    {
+      "word": "Ŷфлямах",
+      "translation": "Грузить, Загрузить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ŷфлянмах",
+      "translation": "Загрузиться, Нагрузиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ŷч",
+      "translation": "Три, Груз, Ноша",
+      "partOfSpeech": "Числительное, Существительное"
+    },
+    {
+      "word": "ŷшŷмах",
+      "translation": "мерзнуть",
+      "partOfSpeech": "глагол",
+      "comments": "добавить в значение: заболевать"
+    },
+    {
+      "word": "ŷcтŷндâ",
+      "translation": "наверху",
+      "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Файтон",
+      "translation": "Карета",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "фарахланмах",
+      "translation": "остыть,успокоиться (о человеке)",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Фарым Ёх",
@@ -2489,6 +4431,41 @@
       "word": "Фасфаса",
       "translation": "непоседа",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Фâрым ёх",
+      "translation": "нет сил",
+      "partOfSpeech": "фразеологизм"
+    },
+    {
+      "word": "фель",
+      "translation": "ломоть хлеба",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Фидан",
+      "translation": "Стройный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Фиджâч",
+      "translation": "Жребий",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Фичирляшмах",
+      "translation": "Мыслить, Размышлять, Намереваться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Фичûp",
+      "translation": "Мысль, Размышление, Задумка, Намерение",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Фичûp тôйхмах",
+      "translation": "Иметь намерение, Планировать, Строить (планы), Задумать (что-то)",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Фодислâмах",
@@ -2502,16 +4479,6 @@
       "word": "Фыстийхлиер",
       "translation": "Выпендривается, брыкается",
       "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Хâбяр",
-      "translation": "весть,новость",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Хâра",
-      "translation": "черный",
-      "partOfSpeech": "прилагательное"
     },
     {
       "word": "Хаб",
@@ -2534,16 +4501,16 @@
       "translation": "Гусь"
     },
     {
-      "word": "Хаз Таюха Бахмыш",
-      "translation": "Перегонки"
-    },
-    {
-      "word": "Хаз Таюха Бахмыш",
-      "translation": "Перегонки"
-    },
-    {
       "word": "Хазан",
       "translation": "Кастрюля"
+    },
+    {
+      "word": "Хаз Таюха Бахмыш",
+      "translation": "Перегонки"
+    },
+    {
+      "word": "Хаз Таюха Бахмыш",
+      "translation": "Перегонки"
     },
     {
       "word": "Хайнана",
@@ -2578,12 +4545,13 @@
       "translation": "Снег"
     },
     {
-      "word": "Харман",
-      "translation": "Участок земли"
+      "word": "хараб",
+      "translation": "испорченный,плохой",
+      "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Хас Охлан",
-      "translation": "Нежный парень"
+      "word": "Харман",
+      "translation": "Участок земли"
     },
     {
       "word": "Хасият",
@@ -2594,8 +4562,49 @@
       "translation": "Больной"
     },
     {
+      "word": "Хас Охлан",
+      "translation": "Нежный парень"
+    },
+    {
       "word": "хач",
       "translation": "крест",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Хач су",
+      "translation": "Крещение",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
+    },
+    {
+      "word": "Хаш-хаш",
+      "translation": "мак(цветок)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Хâбяр",
+      "translation": "весть,новость",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Хâра",
+      "translation": "черный",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Хâтâ доланмах",
+      "translation": "Искать приключение (себе на голову)",
+      "partOfSpeech": "Фразеологизм"
+    },
+    {
+      "word": "Хеерли",
+      "translation": "Здорово, Здраво (Хеерли олсун - 1) На здоровье; 2) Да здравствует)",
+      "partOfSpeech": "1) Междометие; 2) Частица (фразеологизм)",
+      "comments": "01.02., 2:40"
+    },
+    {
+      "word": "Хеûр",
+      "translation": "Польза",
       "partOfSpeech": "существительное"
     },
     {
@@ -2616,6 +4625,12 @@
       "word": "Хоряч",
       "translation": "горячее блюдо",
       "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Храм зиярати",
+      "translation": "Прощенный день",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
     },
     {
       "word": "Хуймах",
@@ -2745,6 +4760,11 @@
       "partOfSpeech": "существительное"
     },
     {
+      "word": "Хыбар",
+      "translation": "Мелкий камень",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Хызар",
       "translation": "пила",
       "partOfSpeech": "глагол"
@@ -2752,6 +4772,11 @@
     {
       "word": "Хызарламах",
       "translation": "пилить",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Хырхыз",
+      "translation": "Вор",
       "partOfSpeech": "существительное"
     },
     {
@@ -2767,8 +4792,96 @@
       "translation": "Шумный"
     },
     {
+      "word": "хгâйдâ",
+      "translation": "мелодия",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Целый",
       "translation": "Сах"
+    },
+    {
+      "word": "чагхырмах",
+      "translation": "звать",
+      "partOfSpeech": "глагол",
+      "comments": "объединить со строкой 251"
+    },
+    {
+      "word": "чагхырмах",
+      "translation": "петь",
+      "partOfSpeech": "глагол",
+      "comments": "объединить со строкой 250"
+    },
+    {
+      "word": "Чали",
+      "translation": "Колючий кустарник"
+    },
+    {
+      "word": "Чали",
+      "translation": "Колючий кустарник",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Чалмах",
+      "translation": "Воровать"
+    },
+    {
+      "word": "Чам",
+      "translation": "Дерево",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чамур",
+      "translation": "Грязь"
+    },
+    {
+      "word": "Чапач",
+      "translation": "Отруби , и перхоть"
+    },
+    {
+      "word": "Чапач",
+      "translation": "Ограждение из колючих кустарников"
+    },
+    {
+      "word": "Чапут",
+      "translation": "тряпка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чар",
+      "translation": "Марля",
+      "partOfSpeech": "существительное",
+      "comments": "объединить со строкой 256"
+    },
+    {
+      "word": "Чар",
+      "translation": "Медицинский бинт",
+      "partOfSpeech": "существительное",
+      "comments": "объединить со строкой 255"
+    },
+    {
+      "word": "Чаршамба",
+      "translation": "Вторник",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Частана",
+      "translation": "Каштан"
+    },
+    {
+      "word": "Чаттамах",
+      "translation": "Треснуть, Разрываться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Чаттамая джâльмах",
+      "translation": "Приходить в бешенство",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Чачырча",
+      "translation": "Кузнечик",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Чâймах",
@@ -2783,6 +4896,11 @@
     {
       "word": "Чâмчи",
       "translation": "ткацкий станок"
+    },
+    {
+      "word": "Чâндырбаз",
+      "translation": "канатоходец",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Чâпâр",
@@ -2809,93 +4927,15 @@
       "partOfSpeech": "прилагательное"
     },
     {
-      "word": "Чôлâпâ",
-      "translation": "неряшливый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Чôмŷр",
-      "translation": "Уголь"
-    },
-    {
-      "word": "Чôп",
-      "translation": "деревянная затычка",
+      "word": "Чâpâмâт",
+      "translation": "Польза, Прок, Помощь, Благословение",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Чôчâчâмâ",
-      "translation": "ящерица",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чôшâ",
-      "translation": "обтесанный камень",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чôша",
-      "translation": "Угловой камень для строительства дома"
-    },
-    {
-      "word": "Чŷль",
-      "translation": "зола"
-    },
-    {
-      "word": "Чŷмŷш",
-      "translation": "серебро",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чŷф",
-      "translation": "плесень",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чали",
-      "translation": "Колючий кустарник"
-    },
-    {
-      "word": "Чалмах",
-      "translation": "Воровать"
-    },
-    {
-      "word": "Чам",
-      "translation": "Дерево",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чамур",
-      "translation": "Грязь"
-    },
-    {
-      "word": "Чапач",
-      "translation": "Отруби , и перхоть"
-    },
-    {
-      "word": "Чапач",
-      "translation": "Ограждение из колючих кустарников"
-    },
-    {
-      "word": "Чаршамба",
-      "translation": "Вторник",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Частана",
-      "translation": "Каштан"
-    },
-    {
-      "word": "Чачырча",
-      "translation": "Кузнечик",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чёв",
-      "translation": "Село"
-    },
-    {
-      "word": "Чёмур",
-      "translation": "уголь"
+      "word": "челых",
+      "translation": "поминки",
+      "partOfSpeech": "существительное",
+      "comments": "проверить написание слова: чилых ?"
     },
     {
       "word": "Ченч",
@@ -2906,13 +4946,14 @@
       "translation": "Стружка"
     },
     {
+      "word": "Чеф",
+      "translation": "празднование",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Чефли",
       "translation": "пьяный",
       "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Чёч",
-      "translation": "Корень"
     },
     {
       "word": "Чечярчин",
@@ -2920,12 +4961,36 @@
       "partOfSpeech": "глагол"
     },
     {
+      "word": "Чёв",
+      "translation": "Село"
+    },
+    {
+      "word": "Чёмур",
+      "translation": "уголь"
+    },
+    {
+      "word": "Чёч",
+      "translation": "Корень"
+    },
+    {
+      "word": "Чи",
+      "translation": "Что",
+      "partOfSpeech": "Союз или союзное слово",
+      "comments": "отдельное ли это слово?? примеры: асма чи, эля чи. оставлять отдельно - ?"
+    },
+    {
+      "word": "Чивит",
+      "translation": "Синька",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Чим",
       "translation": "Кто?"
     },
     {
-      "word": "Чим Орда Варыди? Инсан Ёхуди",
-      "translation": "Кто там был ? Никого не было."
+      "word": "Чимâ?",
+      "translation": "кому",
+      "partOfSpeech": "местоимение,существительное"
     },
     {
       "word": "Чимдырмах",
@@ -2940,6 +5005,15 @@
       "translation": "Купаться"
     },
     {
+      "word": "Чим?",
+      "translation": "кто",
+      "partOfSpeech": "местоимение"
+    },
+    {
+      "word": "Чим Орда Варыди? Инсан Ёхуди",
+      "translation": "Кто там был ? Никого не было."
+    },
+    {
       "word": "Чинуз",
       "translation": "День"
     },
@@ -2948,12 +5022,22 @@
       "translation": "Черешня"
     },
     {
+      "word": "Чирахпа",
+      "translation": "Лампа с фитилем",
+      "partOfSpeech": "существительное"
+    },
+    {
       "word": "Чирва",
       "translation": "Кум"
     },
     {
       "word": "Чирли",
       "translation": "Грязный"
+    },
+    {
+      "word": "Чирпи",
+      "translation": "ежик",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Чич",
@@ -2968,6 +5052,11 @@
       "translation": "Маленький"
     },
     {
+      "word": "Чолах",
+      "translation": "хромой",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Чорах",
       "translation": "самодельная обувь из кожи",
       "partOfSpeech": "существительное"
@@ -2976,6 +5065,51 @@
       "word": "Чох",
       "translation": "много",
       "partOfSpeech": "наречие"
+    },
+    {
+      "word": "Чохтаннан",
+      "translation": "Давно",
+      "partOfSpeech": "наречие",
+      "comments": "01.02., 3:05"
+    },
+    {
+      "word": "Чôйхмах или Чôшмах",
+      "translation": "Приседать, Переезжать",
+      "partOfSpeech": "глагол",
+      "comments": "Вынесено на общее обсуждение"
+    },
+    {
+      "word": "Чôлâпâ",
+      "translation": "неряшливый",
+      "partOfSpeech": "прилагательное"
+    },
+    {
+      "word": "Чôмŷр",
+      "translation": "Уголь"
+    },
+    {
+      "word": "Чôп",
+      "translation": "деревянная затычка",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чôч",
+      "translation": "Корень, Толстый",
+      "partOfSpeech": "Существительное, Прилагательное"
+    },
+    {
+      "word": "Чôчâчâмâ",
+      "translation": "ящерица",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чôша",
+      "translation": "Угловой камень для строительства дома"
+    },
+    {
+      "word": "Чôшâ",
+      "translation": "обтесанный камень",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Чубух",
@@ -2995,12 +5129,46 @@
       "translation": "Кувшин глиняный сосуд забивали сыром чычел"
     },
     {
+      "word": "Чŷль",
+      "translation": "зола"
+    },
+    {
+      "word": "Чŷмŷш",
+      "translation": "серебро",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чŷтŷч",
+      "translation": "Пень, Колода (для рубки мяса)",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чŷф",
+      "translation": "плесень",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Чŷчŷч",
+      "translation": "маленький",
+      "partOfSpeech": "прилагательное"
+    },
+    {
       "word": "Чылдырмах",
       "translation": "Перейти границу,усложнять"
     },
     {
       "word": "Чылдырмах",
       "translation": "свихнуться,сойти с ума",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Чырпи",
+      "translation": "Боковые стволы (одеревеневшие сучья) деревьев",
+      "partOfSpeech": "Словосочетание"
+    },
+    {
+      "word": "Чытылатмах (бармахларынан)",
+      "translation": "Щёлкать (пальцами)",
       "partOfSpeech": "глагол"
     },
     {
@@ -3033,15 +5201,6 @@
       "translation": "Верёвка"
     },
     {
-      "word": "Шŷшâбâнд",
-      "translation": "балка деревянная для стойки"
-    },
-    {
-      "word": "Шŷшâбâнд",
-      "translation": "стеклянная веранда",
-      "partOfSpeech": "существительное"
-    },
-    {
       "word": "Шаматали",
       "translation": "Шумный"
     },
@@ -3050,8 +5209,18 @@
       "translation": "Громкий"
     },
     {
+      "word": "Шамламах",
+      "translation": "Уговаривать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Шарвал",
       "translation": "штаны",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "шâяр",
+      "translation": "город",
       "partOfSpeech": "существительное"
     },
     {
@@ -3075,9 +5244,31 @@
       "translation": "Устройство , через которое писял младенец (мальчик) в колыбели"
     },
     {
+      "word": "шилтâндырмах",
+      "translation": "соблазниться",
+      "partOfSpeech": "глагол",
+      "comments": "изменить перевод: Соблазнить"
+    },
+    {
+      "word": "шилтâнмах",
+      "translation": "Соблазниться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Шинди",
       "translation": "сейчас",
       "partOfSpeech": "наречие"
+    },
+    {
+      "word": "шиндиâ ачен",
+      "translation": "до сих пор",
+      "partOfSpeech": "фразеологизм",
+      "comments": "проверить написаниеслова: а на конце ?"
+    },
+    {
+      "word": "Шифрâлâнмах",
+      "translation": "Не по себе",
+      "partOfSpeech": "глагол"
     },
     {
       "word": "Шишмах",
@@ -3088,8 +5279,23 @@
       "translation": "важничать"
     },
     {
+      "word": "Шûмшâч",
+      "translation": "Молния",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Шûнди",
+      "translation": "сейчас, теперь",
+      "partOfSpeech": "наречие"
+    },
+    {
       "word": "Шкаф",
       "translation": "Ишкаф"
+    },
+    {
+      "word": "Шош",
+      "translation": "шоссе,трасса (асфальт ,дорога)",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Штоп",
@@ -3100,18 +5306,42 @@
       "translation": "Лоджии застеклённое мелкими стеклами"
     },
     {
+      "word": "Шŷшâбâнд",
+      "translation": "балка деревянная для стойки"
+    },
+    {
+      "word": "Шŷшâбâнд",
+      "translation": "стеклянная веранда",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Щупâлâнмах",
+      "translation": "Сомневаться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Эвла",
       "translation": "Обед"
     },
     {
-      "word": "Эля олсун",
-      "translation": "пусть будет так",
-      "partOfSpeech": "наречие"
+      "word": "элâ",
+      "translation": "потому что",
+      "partOfSpeech": "союз"
+    },
+    {
+      "word": "Элâ чи",
+      "translation": "Будто бы",
+      "partOfSpeech": "Союз, Частица"
     },
     {
       "word": "Элячи",
       "translation": "как будто",
       "partOfSpeech": "союз"
+    },
+    {
+      "word": "Эля олсун",
+      "translation": "пусть будет так",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Эништа",
@@ -3127,8 +5357,55 @@
       "translation": "Широкий"
     },
     {
+      "word": "Эрмâни числяси",
+      "translation": "Воздвижение Креста Господня",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
+    },
+    {
+      "word": "Эрс",
+      "translation": "Гнев",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Эрси чыхмах",
+      "translation": "Сердиться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Эрслянмах",
+      "translation": "Упрекнуть (сделать замечание), Сердиться, Накричать, Отругать",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "эрчâч",
+      "translation": "Самец",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Этмах",
+      "translation": "делать",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Эхбалл",
       "translation": "удача"
+    },
+    {
+      "word": "Эхтûяр",
+      "translation": "Нужда",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Эч",
+      "translation": "1) Ни разу (Эч джеинмâдым - Ни разу не надевал); 2) Совсем (Эч гхалмадû - Совсем не осталось; 3) Вообще (Эч джёрмâдым - Вообще не видел); 4) Ничего (вопрос: Нâ дедûн? - Что сказал?, ответ: Эч - Ничего); 5) Никогда (Эч дâильдû (разг. от Дâджильдû) чи - Никогда не было, чтобы); 6) Ни (Эч бир чâрâн - Ни разу)",
+      "partOfSpeech": "1) - 4) Наречие, 5) Частица",
+      "comments": "01.02., 3:05, дополнительно обсудить чередование Эч - Эщ"
+    },
+    {
+      "word": "Эчият",
+      "translation": "Сказка",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Эч бише",
@@ -3136,20 +5413,28 @@
       "partOfSpeech": "местоимение"
     },
     {
-      "word": "Яз",
-      "translation": "Лето"
+      "word": "эшь",
+      "translation": "ровесник",
+      "partOfSpeech": "существительное"
     },
     {
-      "word": "Яз Баши",
-      "translation": "Весна"
+      "word": "эшь",
+      "translation": "цена,ценность",
+      "partOfSpeech": "существительное",
+      "comments": "само слово написано неправильно, перевод обозначает другое слово на БД"
+    },
+    {
+      "word": "Яз",
+      "translation": "Лето"
     },
     {
       "word": "Язмах",
       "translation": "Писать"
     },
     {
-      "word": "Язых (+Тыр)",
-      "translation": "Жалко"
+      "word": "Язых",
+      "translation": "Жалко",
+      "partOfSpeech": "наречие"
     },
     {
       "word": "Языхладым",
@@ -3160,12 +5445,25 @@
       "translation": "Жалеть (кого-то )"
     },
     {
+      "word": "Языхламах",
+      "translation": "Жалеть",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Языхлиерым",
       "translation": "Я жалею"
     },
     {
       "word": "Языхлияджам",
       "translation": "Я пожалею"
+    },
+    {
+      "word": "Язых (+Тыр)",
+      "translation": "Жалко"
+    },
+    {
+      "word": "Яз Баши",
+      "translation": "Весна"
     },
     {
       "word": "Яих",
@@ -3181,12 +5479,48 @@
       "translation": "умолять,просить"
     },
     {
+      "word": "Ялланмах",
+      "translation": "Обмануться",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Ямалых",
       "translation": "Заплатка"
     },
     {
+      "word": "Ян",
+      "translation": "сторона,бок",
+      "partOfSpeech": "существительное"
+    },
+    {
+      "word": "Янгхылмах",
+      "translation": "Сомневаться, Перепутать, Ошибиться (жестоко)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Янем чи",
+      "translation": "Будто",
+      "partOfSpeech": "союз"
+    },
+    {
+      "word": "Янмах",
+      "translation": "гореть",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Янында",
+      "translation": "рядом",
+      "partOfSpeech": "прилагательное",
+      "comments": "проверить часть речи: наречие"
+    },
+    {
       "word": "Япмах",
       "translation": "строить",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ярамах",
+      "translation": "подходить (о лекарстве)",
       "partOfSpeech": "глагол"
     },
     {
@@ -3198,12 +5532,27 @@
       "translation": "Прилип , как прилипала"
     },
     {
+      "word": "Ярашмах",
+      "translation": "подходить,соотвествовать (об одежде,о предмете)",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Ярвалмах",
+      "translation": "Умолять",
+      "partOfSpeech": "глагол"
+    },
+    {
       "word": "Яри бучух гхалмах",
       "translation": "остаться недоделанным"
     },
     {
       "word": "Яри Бычках",
       "translation": "Яри бучух калди"
+    },
+    {
+      "word": "Ярлыгхан",
+      "translation": "Обрыв",
+      "partOfSpeech": "существительное"
     },
     {
       "word": "Ярпах",
@@ -3220,6 +5569,17 @@
     {
       "word": "Ятырмах",
       "translation": "Укладываю спать"
+    },
+    {
+      "word": "Яханмах",
+      "translation": "умываться",
+      "partOfSpeech": "глагол"
+    },
+    {
+      "word": "Яхмах",
+      "translation": "жечь, сжигать,",
+      "partOfSpeech": "глагол",
+      "comments": "добавить в значение: поджигать, включать (свет)"
     },
     {
       "word": "Яхши",
@@ -3244,834 +5604,15 @@
       "translation": "Мокрый"
     },
     {
-      "word": "Абурли",
-      "translation": "Порядочный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Абурсузлух",
-      "translation": "Безнравственность",
+      "word": "ãми",
+      "translation": "дядя (со стороны отца)",
       "partOfSpeech": "существительное"
     },
     {
-      "word": "Аджи",
-      "translation": "Острый, Горький",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Аджи джôpмах",
-      "translation": "Видеть горе",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Аджûламах",
-      "translation": "Скорбеть, Сострадать, Горевать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Азмах гхудурмах",
-      "translation": "Взбеситься",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Азырламах",
-      "translation": "Подготавливать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Азырланмах",
-      "translation": "Готовиться, Подготовиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Айып",
-      "translation": "Стыд",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Айыхмах",
-      "translation": "Протрезветь",
-      "partOfSpeech": "глагол",
-      "comments": "добавить в столбец В: Айых!- просыпайся! ( проснись!) - повелит.наклон. Добавить в значенте ,  Очнуться, Очухаться, Прийти в сознание"
-    },
-    {
-      "word": "Арзыламах",
-      "translation": "Возжелать (сильно хотеть)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Асма",
-      "translation": "Будто",
-      "partOfSpeech": "союз"
-    },
-    {
-      "word": "Асма чи",
-      "translation": "Скажем, Допустим",
-      "partOfSpeech": "Вводное Слово"
-    },
-    {
-      "word": "Ахан су",
-      "translation": "Река",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ахг сахкхал или сахгхал",
-      "translation": "Мудрый человек",
-      "partOfSpeech": "Словосочетание",
-      "comments": "Вынесено на общее обсуждение"
-    },
-    {
-      "word": "Ахтармах",
-      "translation": "Расспрашивать, Выискивать (Стремиться увидеть), Интересоваться, Тосковать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ахыри",
-      "translation": "В конце концов",
-      "partOfSpeech": "Фразеологизм"
-    },
-    {
-      "word": "Ачылмах",
-      "translation": "Раскрыться, Открыться, Довериться (раскрыть душу)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Барабар",
-      "translation": "Вместе",
-      "partOfSpeech": "наречие"
-    },
-    {
-      "word": "Бахт",
-      "translation": "Судьба",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Беджâpьмах (Бище беджâpьмах, бôюч ищ тûр)",
-      "translation": "Уметь (Что-то уметь - большое дело), Справляться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Беджâpâмах (Ищû беджâpâмиер)",
-      "translation": "Справляться  (С работой не справляется)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Безâнмах",
-      "translation": "Наряжаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Бейн",
-      "translation": "Мозг",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Биабур этмах",
-      "translation": "Опозорить, Осрамить, Унизить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Бир сŷри или нахыр (халх джâльди)",
-      "translation": "Одно (Целое) стадо (о животных), Целая толпа (о людях), Много (людей приехало)",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Боятмах",
-      "translation": "Красить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Боях",
-      "translation": "Краска",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Будамах",
-      "translation": "Бить, Лупить, Избивать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Будахланмах",
-      "translation": "Разветвляться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Бюзюлмах",
-      "translation": "Скукожиться, Скривиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Бôджŷч",
-      "translation": "Жук",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Вâтâн",
-      "translation": "Родина",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гагаламах",
-      "translation": "Клевать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гхара сахгыз",
-      "translation": "Жевательная резинка (гудрон)",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Гхаргхыш",
-      "translation": "Проклятье, Проклинание",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гхаргхышламах",
-      "translation": "Проклинать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гхачах",
-      "translation": "Разбойник, Беглец",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гхочах",
-      "translation": "Храбрый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Гхути",
-      "translation": "Шкатулка",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гхыймах",
-      "translation": "Скупиться, Жалеть, Жадничать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гхыймâт",
-      "translation": "Цена, Стоимость",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гхыймâтти",
-      "translation": "Ценный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Гхыймâтâ гхоймах",
-      "translation": "Ценить, Уважать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гхысмâт",
-      "translation": "Счастье, Удача",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Гхысмâтти",
-      "translation": "Счастливый, Удачливый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Гылдийхлямах (Бâн габами гылдийхлядым)",
-      "translation": "Помять (Я платье помяла), Скомкать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гылдийхлянмах",
-      "translation": "1. Помяться. Выраж.: Бâнûм габам гылдийхлянди - Моё платье помялось; 2. Скомкаться, Запутаться. Выраж.: Телляр гылдийхлянди - Нитки запутались",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Гыргыт",
-      "translation": "Жадный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Далли-будахли",
-      "translation": "Ветвистый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Дарыхмах",
-      "translation": "Переживать, Нервничать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джана джâльмах",
-      "translation": "Ожить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джиннâнмах",
-      "translation": "Рассвирепеть",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джирмах",
-      "translation": "Заходить (в помещение), Садиться (уменьшаться при стирке)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джыгырли",
-      "translation": "Растрёпанный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Джюдж( И)",
-      "translation": "Сила",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Джâpдâнни",
-      "translation": "Широкоплечий",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Джôзŷн айдын олсун",
-      "translation": "Поздравляю",
-      "partOfSpeech": "междометие"
-    },
-    {
-      "word": "Джôрŷнмах",
-      "translation": "Привидеться, Показаться (выходить из укрытия)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Джŷрлâмах",
-      "translation": "Греметь (о грозе)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дува",
-      "translation": "Молитва, Пожелание",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дуваламах",
-      "translation": "Благославлять, Пожелать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дыбр",
-      "translation": "Вожак (в стаде овец), Козёл-провокатор",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дэв",
-      "translation": "Великан",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дâвâ",
-      "translation": "Верблюд",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дâджâpли",
-      "translation": "Стоящий (заслуживающий внимания, представляющий ценность)",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Дâрâ",
-      "translation": "Овраг, Низина",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Дûлâнмах",
-      "translation": "Попрошайничать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дûрûлмах",
-      "translation": "Приходить в сознание, Оживать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Дûшь",
-      "translation": "Сон, Зуб, Сегмент (режущий элемент алмазного диска)",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ерь ойнамаси",
-      "translation": "Землетрясение",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ерьлâшмах",
-      "translation": "Размещаться, Располагаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ерьлâштûрмах",
-      "translation": "Размещать, Раскладывать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Етûм",
-      "translation": "Сирота",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Зâйхля джôтŷpмах",
-      "translation": "Надоедать, Доставать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Изан",
-      "translation": "Умение, Талант, Мастерство",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Изанни",
-      "translation": "Талантливый, Умелый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Изûн",
-      "translation": "Разрешение",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Ирах",
-      "translation": "Далеко, Прочь",
-      "partOfSpeech": "наречие"
-    },
-    {
-      "word": "Ирах этсûн",
-      "translation": "Пусть обойдёт стороной (плохое)",
-      "partOfSpeech": "Фразеологизм"
-    },
-    {
-      "word": "Ирûлмах",
-      "translation": "Увеличиваться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Истâмах",
-      "translation": "Хотеть, Желать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Исыргхан",
-      "translation": "Крапива",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Иштем",
-      "translation": "Бы",
-      "partOfSpeech": "Частица, Союз"
-    },
-    {
-      "word": "Йылдырмах",
-      "translation": "Надоедать, Донимать, Досаждать, Доставать, Утомлять, Допекать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Кор олем",
-      "translation": "Бедняжка",
-      "partOfSpeech": "междометие"
-    },
-    {
-      "word": "Кутур",
-      "translation": "Град, Хрящ",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Лайых",
-      "translation": "Уместный, Подходящий",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Лайых джôpмах",
-      "translation": "Одобрять",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Мосмор",
-      "translation": "Пухлячок",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Мурдар",
-      "translation": "Противный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Мâрâфâт",
-      "translation": "Умение, Талант, Мастерство",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Мâpâфâтти",
-      "translation": "Сильный, (Мастеровитый)",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Нахартан, Нахартен",
-      "translation": "Сколько, Насколько",
-      "partOfSpeech": "Местоимение, Наречие",
-      "comments": "Вынесено на общее обсуждение"
-    },
-    {
-      "word": "Нахартен",
-      "translation": "Насколько",
-      "partOfSpeech": "наречие"
-    },
-    {
-      "word": "Нервûлянмах",
-      "translation": "Нервничать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Нâмâpт",
-      "translation": "Подлость, Злодеяние",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Одуннан",
-      "translation": "Из дерева",
-      "partOfSpeech": "Предлог + Существительное"
-    },
-    {
-      "word": "Одунни",
-      "translation": "Деревянный",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Осанмах",
-      "translation": "Лениться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "От",
-      "translation": "Трава",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Охартан, Охартен",
-      "translation": "Столько, Настолько",
-      "partOfSpeech": "Наречие, Числительное",
-      "comments": "Вынесено на общее обсуждение"
-    },
-    {
-      "word": "Оюн",
-      "translation": "Смешной, Нелепый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Оюн олмах",
-      "translation": "Стать посмешищем",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Оюннух",
-      "translation": "Посмешище",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Пайхырмах",
-      "translation": "Сердиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Паттамах",
-      "translation": "Изнемогать (от жары),Терзаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Патыламах",
-      "translation": "Взрываться, Лопаться, Стрелять, Лопать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Патылатмах",
-      "translation": "Взрывать, Взорвать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Пишман олмах",
-      "translation": "Пожалеть (о чём-то)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Пâрûз",
-      "translation": "Пост",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Пâрûз дутмах",
-      "translation": "Поститься",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сакхал",
-      "translation": "Борода",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сахг джан",
-      "translation": "Здоровый человек",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Саяпсыз",
-      "translation": "Без роду и племени, Бесхозный",
-      "partOfSpeech": "Фразеологизм, Прилагательное"
-    },
-    {
-      "word": "Сел",
-      "translation": "Потоп, Наводнение",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Су басмах",
-      "translation": "Наводнять",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Сŷпŷpджâ",
-      "translation": "Веник",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Сŷpмя",
-      "translation": "Ящик выдвижной",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Томарли",
-      "translation": "Вместе",
-      "partOfSpeech": "наречие"
-    },
-    {
-      "word": "Тыпылатмах (Ŷpâджûм тыпылади)",
-      "translation": "Ёкнуть (Сердце ёкнуло), Дрогнуть",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Тâpпâнмах",
-      "translation": "Тронуться с места, Дёргаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Тûйх, Тûйх дурмах, Тûйх ойнатмах",
-      "translation": "Прямо, Стоять прямо, по стойке смирно, Заставлять плясать под дудку",
-      "partOfSpeech": "Наречие, Наречный оборот, Словосочетание (устойчивое выражение)"
-    },
-    {
-      "word": "Тûйхмах",
-      "translation": "Шить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Узалмах",
-      "translation": "Расти, Удлиниться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Утанмах",
-      "translation": "Стыдиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Уянмах",
-      "translation": "Просыпаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Уяртмах",
-      "translation": "Будить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Файтон",
-      "translation": "Карета",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Фиджâч",
-      "translation": "Жребий",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Фичирляшмах",
-      "translation": "Мыслить, Размышлять, Намереваться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Фичûp",
-      "translation": "Мысль, Размышление, Задумка, Намерение",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Фичûp тôйхмах",
-      "translation": "Иметь намерение, Планировать, Строить (планы), Задумать (что-то)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Хеûр",
-      "translation": "Польза",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Хырхыз",
-      "translation": "Вор",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Хâтâ доланмах",
-      "translation": "Искать приключение (себе на голову)",
-      "partOfSpeech": "Фразеологизм"
-    },
-    {
-      "word": "Чали",
-      "translation": "Колючий кустарник",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Чаттамах",
-      "translation": "Треснуть, Разрываться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Чаттамая джâльмах",
-      "translation": "Приходить в бешенство",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Чивит",
-      "translation": "Синька",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чырпи",
-      "translation": "Боковые стволы (одеревеневшие сучья) деревьев",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Чытылатмах (бармахларынан)",
-      "translation": "Щёлкать (пальцами)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Чâpâмâт",
-      "translation": "Польза, Прок, Помощь, Благословение",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Чôйхмах или Чôшмах",
-      "translation": "Приседать, Переезжать",
-      "partOfSpeech": "глагол",
-      "comments": "Вынесено на общее обсуждение"
-    },
-    {
-      "word": "Чôч",
-      "translation": "Корень, Толстый",
-      "partOfSpeech": "Существительное, Прилагательное"
-    },
-    {
-      "word": "Чŷтŷч",
-      "translation": "Пень, Колода (для рубки мяса)",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Шифрâлâнмах",
-      "translation": "Не по себе",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Щупâлâнмах",
-      "translation": "Сомневаться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Элâ чи",
-      "translation": "Будто бы",
-      "partOfSpeech": "Союз, Частица"
-    },
-    {
-      "word": "Эрси чыхмах",
-      "translation": "Сердиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Эрслянмах",
-      "translation": "Упрекнуть (сделать замечание), Сердиться, Накричать, Отругать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Эхтûяр",
-      "translation": "Нужда",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Язых",
-      "translation": "Жалко",
-      "partOfSpeech": "наречие"
-    },
-    {
-      "word": "Языхламах",
-      "translation": "Жалеть",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ялланмах",
-      "translation": "Обмануться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Янгхылмах",
-      "translation": "Сомневаться, Перепутать, Ошибиться (жестоко)",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Янем чи",
-      "translation": "Будто",
-      "partOfSpeech": "союз"
-    },
-    {
-      "word": "Ярлыгхан",
-      "translation": "Обрыв",
-      "partOfSpeech": "существительное"
-    },
-    {
-      "word": "Âзьмах",
-      "translation": "Мять, Раздавить (в смысле Избить или Отлупить), Размазать, Защемить, Зажать",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Âли ачых",
-      "translation": "Щедрый",
-      "partOfSpeech": "прилагательное"
-    },
-    {
-      "word": "Ôльмах",
-      "translation": "Умереть, Убиваться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ŷджŷpâ",
-      "translation": "Ящик выдвижной ( Из Груз.Яз.)",
-      "partOfSpeech": "Словосочетание"
-    },
-    {
-      "word": "Ŷфлямах",
-      "translation": "Грузить, Загрузить",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ŷфлянмах",
-      "translation": "Загрузиться, Нагрузиться",
-      "partOfSpeech": "глагол"
-    },
-    {
-      "word": "Ŷч",
-      "translation": "Три, Груз, Ноша",
-      "partOfSpeech": "Числительное, Существительное"
+      "word": "Aхтâлâ",
+      "translation": "Рождество Пресвятой Богородицы",
+      "partOfSpeech": "существительное",
+      "comments": "добавить в значение: название цирковного праздника + дата"
     }
   ]
 }

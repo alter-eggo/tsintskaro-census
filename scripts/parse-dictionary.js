@@ -19,13 +19,22 @@ const https = require("https");
 // Google Sheets ID from the URL
 const SHEET_ID = "1DRomX8f2oxBIVpvygpySyGQ8UZf1UBXb7B8DYFfZSdg";
 
-// The sheet name (tab) - "Эталонный словарь" is the main dictionary
-const SHEET_NAME = "Эталонный словарь";
+// Sheet names (tabs) to fetch from
+// Use `gid` when the gviz/tq endpoint doesn't return correct data for a sheet
+const SHEETS = [
+  { name: "Эталонный словарь", label: "Standard Dictionary" },
+  { name: "Рабочий словарь", label: "Working Dictionary", gid: "1176528049" },
+];
 
-// URL for fetching as CSV (sheet must be published to web)
-const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(
-  SHEET_NAME
-)}`;
+// Build CSV URL for a sheet — uses gid-based export if available, otherwise gviz by name
+function buildCSVUrl(sheet) {
+  if (sheet.gid) {
+    return `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${sheet.gid}`;
+  }
+  return `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(
+    sheet.name
+  )}`;
+}
 
 // Output path
 const OUTPUT_PATH = path.join(
@@ -241,22 +250,155 @@ function normalizePartOfSpeech(pos) {
 }
 
 /**
+ * Official Tsintskaro alphabet in correct order.
+ * Includes multi-character letters: Гх, Дж, Хг
+ */
+const TSINTSKARO_ALPHABET = [
+  "А", "Â", "Б", "В", "Г", "Гх", "Д", "Дж",
+  "Е", "Ё", "Ж", "З", "И", "Û", "Й", "К",
+  "Л", "М", "Н", "О", "Ô", "П", "Р", "С",
+  "Т", "У", "Ŷ", "Ф", "Х", "Хг", "Ц", "Ч",
+  "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я",
+];
+
+// Multi-character letters (checked first when tokenizing)
+const MULTI_CHAR_LETTERS = ["Гх", "Дж", "Хг"];
+
+/**
+ * Tokenize a word into Tsintskaro alphabet letters.
+ * E.g. "Гхардаш" -> ["Гх", "а", "р", "д", "а", "ш"]
+ */
+function tokenizeWord(word) {
+  const upper = word.toUpperCase();
+  const tokens = [];
+  let i = 0;
+
+  while (i < upper.length) {
+    let matched = false;
+    // Check multi-character letters first
+    for (const ml of MULTI_CHAR_LETTERS) {
+      if (upper.startsWith(ml.toUpperCase(), i)) {
+        tokens.push(ml.toUpperCase());
+        i += ml.length;
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      tokens.push(upper[i]);
+      i++;
+    }
+  }
+
+  return tokens;
+}
+
+// Build a map from letter -> sort index for fast lookup
+const LETTER_ORDER = new Map();
+TSINTSKARO_ALPHABET.forEach((letter, index) => {
+  LETTER_ORDER.set(letter.toUpperCase(), index);
+});
+
+/**
+ * Compare two words according to Tsintskaro alphabet order.
+ */
+function compareTsintskaroWords(a, b) {
+  const tokensA = tokenizeWord(a);
+  const tokensB = tokenizeWord(b);
+  const len = Math.min(tokensA.length, tokensB.length);
+
+  for (let i = 0; i < len; i++) {
+    const orderA = LETTER_ORDER.has(tokensA[i]) ? LETTER_ORDER.get(tokensA[i]) : 999;
+    const orderB = LETTER_ORDER.has(tokensB[i]) ? LETTER_ORDER.get(tokensB[i]) : 999;
+
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+  }
+
+  // If all compared tokens are equal, shorter word comes first
+  return tokensA.length - tokensB.length;
+}
+
+/**
+ * Merge entries from multiple sheets.
+ * All entries within each sheet are kept (a word can have multiple meanings).
+ * Entries from later sheets are only skipped if the exact same word
+ * already exists in an earlier sheet (cross-sheet dedup only).
+ */
+function mergeSheetEntries(sheetsEntries) {
+  const primaryWords = new Set();
+  const merged = [];
+  let skippedCount = 0;
+
+  for (let i = 0; i < sheetsEntries.length; i++) {
+    const entries = sheetsEntries[i];
+
+    if (i === 0) {
+      // First sheet (Эталонный) — keep everything, record words
+      for (const entry of entries) {
+        primaryWords.add(entry.word.toLowerCase().trim());
+        merged.push(entry);
+      }
+    } else {
+      // Later sheets — only add entries whose word is NOT in earlier sheets
+      for (const entry of entries) {
+        const key = entry.word.toLowerCase().trim();
+        if (!primaryWords.has(key)) {
+          merged.push(entry);
+        } else {
+          console.log(`  Duplicate skipped: "${entry.word}" (${entry.translation})`);
+          skippedCount++;
+        }
+      }
+    }
+  }
+
+  return { merged, skippedCount };
+}
+
+/**
  * Main function
  */
 async function main() {
   console.log("Fetching dictionary from Google Sheets...");
-  console.log(`URL: ${CSV_URL}`);
+  console.log(`Sheets to fetch: ${SHEETS.map((s) => s.name).join(", ")}\n`);
 
   try {
-    // Try to fetch from Google Sheets
-    const csvContent = await fetchCSV(CSV_URL);
+    // Fetch all sheets in parallel
+    const csvResults = await Promise.all(
+      SHEETS.map(async (sheet) => {
+        const url = buildCSVUrl(sheet);
+        console.log(`Fetching "${sheet.name}"...`);
+        const csv = await fetchCSV(url);
+        return { sheet, csv };
+      })
+    );
 
-    console.log("Parsing CSV...");
-    const rows = parseCSV(csvContent);
-    console.log(`Parsed ${rows.length} rows`);
+    // Parse and convert each sheet separately
+    const sheetsEntries = [];
+    for (const { sheet, csv } of csvResults) {
+      console.log(`\nParsing "${sheet.name}" (${sheet.label})...`);
+      const rows = parseCSV(csv);
+      console.log(`  Parsed ${rows.length} rows`);
+      const entries = convertToDictionary(rows);
+      console.log(`  Got ${entries.length} entries`);
+      sheetsEntries.push(entries);
+    }
 
-    console.log("Converting to dictionary format...");
-    const dictionary = convertToDictionary(rows);
+    // Merge: keep all entries within each sheet, only skip cross-sheet duplicates
+    const { merged, skippedCount } = mergeSheetEntries(sheetsEntries);
+    if (skippedCount > 0) {
+      console.log(
+        `\nSkipped ${skippedCount} entries from later sheets (already in Эталонный словарь)`
+      );
+    }
+
+    // Sort according to Tsintskaro alphabet order
+    console.log("\nSorting entries by Tsintskaro alphabet...");
+    const dictionary = merged.sort((a, b) =>
+      compareTsintskaroWords(a.word, b.word)
+    );
 
     // Create output directory if it doesn't exist
     const outputDir = path.dirname(OUTPUT_PATH);
@@ -267,9 +409,10 @@ async function main() {
     // Create the final output object with metadata
     const output = {
       metadata: {
-        name: "Эталонный словарь цинцкарского языка",
-        nameEn: "Standard Dictionary of Tsintskaro Language",
+        name: "Словарь цинцкарского языка",
+        nameEn: "Dictionary of Tsintskaro Language",
         source: `https://docs.google.com/spreadsheets/d/${SHEET_ID}`,
+        sheets: SHEETS.map((s) => s.name),
         lastUpdated: new Date().toISOString(),
         totalEntries: dictionary.length,
       },
@@ -289,40 +432,15 @@ async function main() {
     console.log(
       "Go to: File > Share > Publish to web > Select the sheet > Publish"
     );
+    console.log(
+      "\nMake sure BOTH sheets are published: Эталонный словарь and Рабочий словарь"
+    );
     console.log("\nAlternatively, you can:");
     console.log(
-      "1. Export the sheet as CSV (File > Download > Comma-separated values)"
+      "1. Export each sheet as CSV (File > Download > Comma-separated values)"
     );
-    console.log("2. Save it as scripts/dictionary.csv");
+    console.log("2. Save them in scripts/ folder");
     console.log("3. Run this script again with --local flag");
-
-    // Try local file as fallback
-    const localPath = path.join(__dirname, "dictionary.csv");
-    if (fs.existsSync(localPath)) {
-      console.log("\nFound local CSV file, using that instead...");
-      const csvContent = fs.readFileSync(localPath, "utf8");
-      const rows = parseCSV(csvContent);
-      const dictionary = convertToDictionary(rows);
-
-      const outputDir = path.dirname(OUTPUT_PATH);
-      if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
-      }
-
-      const output = {
-        metadata: {
-          name: "Эталонный словарь цинцкарского языка",
-          nameEn: "Standard Dictionary of Tsintskaro Language",
-          source: `https://docs.google.com/spreadsheets/d/${SHEET_ID}`,
-          lastUpdated: new Date().toISOString(),
-          totalEntries: dictionary.length,
-        },
-        entries: dictionary,
-      };
-
-      fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2), "utf8");
-      console.log(`\n✓ Dictionary saved to: ${OUTPUT_PATH}`);
-    }
 
     process.exit(1);
   }

@@ -13,6 +13,44 @@ export interface DictionaryEntry {
   comments?: string;
 }
 
+/**
+ * Official Tsintskaro alphabet in correct order.
+ * Includes multi-character letters: Гх, Дж, Хг
+ */
+export const TSINTSKARO_ALPHABET = [
+  "А", "Â", "Б", "В", "Г", "Гх", "Д", "Дж",
+  "Е", "Ё", "Ж", "З", "И", "Û", "Й", "К",
+  "Л", "М", "Н", "О", "Ô", "П", "Р", "С",
+  "Т", "У", "Ŷ", "Ф", "Х", "Хг", "Ц", "Ч",
+  "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я",
+] as const;
+
+/**
+ * Multi-character letters that must be checked first when
+ * determining which alphabet letter a word starts with.
+ * Sorted longest-first so "Гх" is matched before "Г", etc.
+ */
+const MULTI_CHAR_LETTERS = ["Гх", "Дж", "Хг"];
+
+/**
+ * Determine the Tsintskaro alphabet letter that a word starts with.
+ * Handles multi-character letters like Гх, Дж, Хг.
+ */
+export function getWordLetter(word: string): string | null {
+  if (!word) return null;
+  const upper = word.toUpperCase();
+
+  // Check multi-character letters first
+  for (const ml of MULTI_CHAR_LETTERS) {
+    if (upper.startsWith(ml.toUpperCase())) {
+      return ml;
+    }
+  }
+
+  // Fall back to single first character
+  return word[0].toUpperCase();
+}
+
 export interface DictionaryMetadata {
   name: string;
   nameEn: string;
@@ -96,27 +134,33 @@ export function getPartsOfSpeech(entries: DictionaryEntry[]): string[] {
 }
 
 /**
- * Get dictionary entries starting with a specific letter
+ * Get dictionary entries starting with a specific Tsintskaro alphabet letter.
+ * Handles multi-character letters like Гх, Дж, Хг.
  */
 export function getEntriesByLetter(
   entries: DictionaryEntry[],
   letter: string
 ): DictionaryEntry[] {
-  const normalizedLetter = letter.toLowerCase();
-  return entries.filter((entry) =>
-    entry.word.toLowerCase().startsWith(normalizedLetter)
-  );
+  return entries.filter((entry) => getWordLetter(entry.word) === letter);
 }
 
 /**
- * Get all unique first letters from dictionary words
+ * Get the official Tsintskaro alphabet, optionally filtered to only
+ * letters that have at least one word in the given entries.
  */
-export function getAlphabet(entries: DictionaryEntry[]): string[] {
-  const letters = new Set<string>();
+export function getAlphabet(
+  entries?: DictionaryEntry[],
+  onlyWithEntries = false
+): string[] {
+  if (!onlyWithEntries || !entries) {
+    return [...TSINTSKARO_ALPHABET];
+  }
+
+  const usedLetters = new Set<string>();
   entries.forEach((entry) => {
-    if (entry.word) {
-      letters.add(entry.word[0].toUpperCase());
-    }
+    const letter = getWordLetter(entry.word);
+    if (letter) usedLetters.add(letter);
   });
-  return Array.from(letters).sort();
+
+  return TSINTSKARO_ALPHABET.filter((letter) => usedLetters.has(letter));
 }
