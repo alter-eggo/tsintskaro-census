@@ -29,14 +29,14 @@ export default function LanguagePage() {
 
   const entries = dictionaryData.entries as DictionaryEntry[];
 
-  // Use the official Tsintskaro alphabet, filtered to letters that have entries
-  const alphabet = useMemo(() => {
+  // Track which letters have entries (for styling), but show the full alphabet
+  const lettersWithEntries = useMemo(() => {
     const usedLetters = new Set<string>();
     entries.forEach((entry) => {
       const letter = getWordLetter(entry.word);
       if (letter) usedLetters.add(letter);
     });
-    return TSINTSKARO_ALPHABET.filter((letter) => usedLetters.has(letter));
+    return usedLetters;
   }, [entries]);
 
   // Filter entries based on search query and selected letter
@@ -129,7 +129,7 @@ export default function LanguagePage() {
 
           {/* Alphabet Navigation */}
           <div className="flex flex-wrap gap-1">
-            {alphabet.map((letter) => (
+            {TSINTSKARO_ALPHABET.map((letter) => (
               <button
                 key={letter}
                 onClick={() => handleLetterClick(letter)}
