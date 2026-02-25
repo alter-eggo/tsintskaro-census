@@ -29,12 +29,12 @@ import Link from "next/link";
 // Menu items from Header component example.
 const navigation = [
   { name: "Главная", href: "/", icon: House },
-  { name: "Язык", href: "/language", icon: Languages },
-  { name: "Об Обществе", href: "/about", icon: Users2 },
   { name: "История", href: "/history", icon: History },
+  { name: "Культура и досуг", href: "/gallery", icon: Image },
+  { name: "Общество", href: "/about", icon: Users2 },
+  { name: "Обычаи и традиции", href: "/traditions", icon: BookOpen },
   { name: "Фамилии", href: "/families", icon: Users },
-  { name: "Галерея", href: "/gallery", icon: Image },
-  { name: "Традиции", href: "/traditions", icon: BookOpen },
+  { name: "Язык", href: "/language", icon: Languages },
 ];
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
