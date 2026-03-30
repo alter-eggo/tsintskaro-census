@@ -1,17 +1,26 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { User } from "lucide-react";
 
 interface Person {
   name: string;
-  years: string;
-  achievement: string;
-  image: string;
+  years?: string;
+  achievement?: string;
+  image?: string;
 }
 
 interface KeyFiguresProps {
   title: string;
   description: string;
   people: Person[];
+}
+
+function getInitials(name: string): string {
+  return name
+    .split(" ")
+    .map((part) => part.charAt(0))
+    .slice(0, 2)
+    .join("");
 }
 
 export default function KeyFigures({
@@ -28,27 +37,36 @@ export default function KeyFigures({
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
         {people.map((person) => (
-          <Card key={person.name} className="text-center">
-            <CardContent className="pt-4 md:pt-6 p-4 md:p-6 space-y-3 md:space-y-4">
-              <Avatar className="h-20 w-20 md:h-24 md:w-24 mx-auto">
-                <AvatarImage src={person.image} alt={person.name} />
-                <AvatarFallback>{person.name.charAt(0)}</AvatarFallback>
+          <Card key={person.name}>
+            <CardContent className="p-4 md:p-6 flex items-start gap-4">
+              <Avatar className="h-14 w-14 flex-shrink-0">
+                {person.image ? (
+                  <AvatarImage src={person.image} alt={person.name} />
+                ) : null}
+                <AvatarFallback className="bg-primary/10 text-primary">
+                  {person.image ? (
+                    getInitials(person.name)
+                  ) : (
+                    <User className="h-6 w-6" />
+                  )}
+                </AvatarFallback>
               </Avatar>
 
-              <div>
+              <div className="space-y-1">
                 <h3 className="font-semibold text-sm md:text-base">
                   {person.name}
                 </h3>
-                <p className="text-xs md:text-sm text-muted-foreground">
-                  {person.years}
-                </p>
+                {person.years && (
+                  <p className="text-xs text-muted-foreground">{person.years}</p>
+                )}
+                {person.achievement && (
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {person.achievement}
+                  </p>
+                )}
               </div>
-
-              <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-                {person.achievement}
-              </p>
             </CardContent>
           </Card>
         ))}
