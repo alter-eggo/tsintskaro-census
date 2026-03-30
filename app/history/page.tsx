@@ -5,11 +5,13 @@ import DiasporaMap from "@/components/history/DiasporaMap";
 import TraditionsSection from "@/components/history/TraditionsSection";
 import HistoricalGallery from "@/components/history/HistoricalGallery";
 import KeyFigures from "@/components/history/KeyFigures";
+import EtymologySection from "@/components/history/EtymologySection";
+import SourcesSection from "@/components/history/SourcesSection";
 
 export default function HistoryPage() {
   return (
     <div className="container py-6 md:py-12 px-4 md:px-6">
-      <div className="max-w-6xl mx-auto space-y-12 md:space-y-20">
+      <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
         {/* Hero */}
         <div className="text-center space-y-3 md:space-y-4">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
@@ -22,6 +24,13 @@ export default function HistoryPage() {
             {historyData.hero.description}
           </p>
         </div>
+
+        {/* Etymology */}
+        <EtymologySection
+          official={historyData.alternativeNames.official}
+          pontic={historyData.alternativeNames.pontic}
+          etymology={historyData.alternativeNames.etymology}
+        />
 
         {/* Timeline */}
         <TimelineSection timeline={historyData.timeline} />
@@ -58,6 +67,13 @@ export default function HistoryPage() {
         <HistoricalGallery
           title={historyData.gallery.title}
           images={historyData.gallery.images}
+        />
+
+        {/* Sources */}
+        <SourcesSection
+          title={historyData.sources.title}
+          description={historyData.sources.description}
+          items={historyData.sources.items}
         />
       </div>
     </div>

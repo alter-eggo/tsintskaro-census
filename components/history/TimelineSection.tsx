@@ -1,12 +1,22 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
+import {
+  Church,
+  School,
+  Users,
+  BookOpen,
+  MapPin,
+  Calendar,
+  Flag,
+  Home,
+  AlertTriangle,
+  Plane,
+  Heart,
+} from "lucide-react";
 
 interface TimelineEvent {
   year: string;
   title: string;
   description: string;
-  image: string;
+  image?: string;
   period: string;
 }
 
@@ -14,15 +24,61 @@ interface TimelineSectionProps {
   timeline: TimelineEvent[];
 }
 
-const periodColors: Record<string, string> = {
-  ancient: "bg-amber-500/10 text-amber-700 border-amber-500/20",
-  imperial: "bg-purple-500/10 text-purple-700 border-purple-500/20",
-  golden: "bg-yellow-500/10 text-yellow-700 border-yellow-500/20",
-  independence: "bg-green-500/10 text-green-700 border-green-500/20",
-  soviet: "bg-red-500/10 text-red-700 border-red-500/20",
-  exodus: "bg-blue-500/10 text-blue-700 border-blue-500/20",
-  migration: "bg-indigo-500/10 text-indigo-700 border-indigo-500/20",
-  modern: "bg-primary/10 text-primary border-primary/20",
+const periodConfig: Record<
+  string,
+  { color: string; bgColor: string; icon: React.ElementType }
+> = {
+  migration: {
+    color: "text-blue-600 dark:text-blue-400",
+    bgColor: "bg-blue-100 dark:bg-blue-900/30",
+    icon: MapPin,
+  },
+  foundation: {
+    color: "text-emerald-600 dark:text-emerald-400",
+    bgColor: "bg-emerald-100 dark:bg-emerald-900/30",
+    icon: Home,
+  },
+  imperial: {
+    color: "text-purple-600 dark:text-purple-400",
+    bgColor: "bg-purple-100 dark:bg-purple-900/30",
+    icon: BookOpen,
+  },
+  golden: {
+    color: "text-amber-600 dark:text-amber-400",
+    bgColor: "bg-amber-100 dark:bg-amber-900/30",
+    icon: Church,
+  },
+  education: {
+    color: "text-cyan-600 dark:text-cyan-400",
+    bgColor: "bg-cyan-100 dark:bg-cyan-900/30",
+    icon: School,
+  },
+  independence: {
+    color: "text-green-600 dark:text-green-400",
+    bgColor: "bg-green-100 dark:bg-green-900/30",
+    icon: Flag,
+  },
+  soviet: {
+    color: "text-red-600 dark:text-red-400",
+    bgColor: "bg-red-100 dark:bg-red-900/30",
+    icon: AlertTriangle,
+  },
+  exodus: {
+    color: "text-indigo-600 dark:text-indigo-400",
+    bgColor: "bg-indigo-100 dark:bg-indigo-900/30",
+    icon: Plane,
+  },
+  modern: {
+    color: "text-rose-600 dark:text-rose-400",
+    bgColor: "bg-rose-100 dark:bg-rose-900/30",
+    icon: Heart,
+  },
+};
+
+const defaultConfig = {
+  color: "text-gray-600 dark:text-gray-400",
+  bgColor: "bg-gray-100 dark:bg-gray-900/30",
+  icon: Calendar,
 };
 
 export default function TimelineSection({ timeline }: TimelineSectionProps) {
@@ -37,66 +93,49 @@ export default function TimelineSection({ timeline }: TimelineSectionProps) {
         </p>
       </div>
 
-      <div className="space-y-6 md:space-y-8">
-        {timeline.map((event, index) => (
-          <div key={index} className="relative">
-            {/* Timeline line - hidden on mobile, visible on desktop */}
-            {index < timeline.length - 1 && (
-              <div className="hidden md:block absolute left-1/2 -ml-px top-24 bottom-0 w-0.5 bg-border" />
-            )}
+      <div className="relative">
+        {/* Vertical line */}
+        <div className="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-border" />
 
-            <div
-              className={`flex flex-col md:flex-row gap-6 md:gap-8 ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
-            >
-              {/* Timeline dot - mobile version */}
-              <div className="flex md:hidden items-center justify-center flex-shrink-0 w-full mb-4">
-                <div className="h-8 w-8 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center">
-                  <div className="h-3 w-3 rounded-full bg-primary" />
+        <div className="space-y-1">
+          {timeline.map((event, index) => {
+            const config = periodConfig[event.period] || defaultConfig;
+            const Icon = config.icon;
+
+            return (
+              <div key={index} className="relative pl-12 md:pl-20 group">
+                {/* Icon circle */}
+                <div
+                  className={`absolute left-0 md:left-4 w-8 h-8 rounded-full ${config.bgColor} flex items-center justify-center ring-4 ring-background z-10`}
+                >
+                  <Icon className={`w-4 h-4 ${config.color}`} />
                 </div>
-              </div>
 
-              {/* Content */}
-              <div className="flex-1">
-                <Card className="h-full">
-                  <CardContent className="p-4 md:p-6 space-y-3 md:space-y-4">
-                    <div className="flex items-center space-x-3">
-                      <Badge className={periodColors[event.period] || ""}>
-                        {event.year}
-                      </Badge>
-                    </div>
-                    <h3 className="text-xl md:text-2xl font-bold">
+                {/* Content card */}
+                <div className="py-4 md:py-5">
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1.5">
+                    <span
+                      className={`text-sm font-bold ${config.color} tabular-nums`}
+                    >
+                      {event.year}
+                    </span>
+                    <h3 className="text-base md:text-lg font-semibold text-foreground">
                       {event.title}
                     </h3>
-                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                      {event.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-
-              {/* Timeline dot - desktop version */}
-              <div className="hidden md:flex items-start justify-center flex-shrink-0 w-12">
-                <div className="h-12 w-12 rounded-full bg-primary/20 border-4 border-background flex items-center justify-center">
-                  <div className="h-4 w-4 rounded-full bg-primary" />
+                  </div>
+                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                    {event.description}
+                  </p>
                 </div>
-              </div>
 
-              {/* Image */}
-              <div className="flex-1">
-                <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
-                  <Image
-                    src={event.image}
-                    alt={event.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                {/* Separator */}
+                {index < timeline.length - 1 && (
+                  <div className="border-b border-border/50" />
+                )}
               </div>
-            </div>
-          </div>
-        ))}
+            );
+          })}
+        </div>
       </div>
     </section>
   );
