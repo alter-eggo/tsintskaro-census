@@ -32,6 +32,11 @@ export const TSINTSKARO_ALPHABET = [
  */
 const MULTI_CHAR_LETTERS = ["Гх", "Дж", "Хг"];
 
+const LETTER_ORDER = new Map<string, number>();
+TSINTSKARO_ALPHABET.forEach((letter, index) => {
+  LETTER_ORDER.set(letter.toUpperCase(), index);
+});
+
 /**
  * Determine the Tsintskaro alphabet letter that a word starts with.
  * Handles multi-character letters like Гх, Дж, Хг.
@@ -51,6 +56,63 @@ export function getWordLetter(word: string): string | null {
   return word[0].toUpperCase();
 }
 
+function tokenizeWord(word: string): string[] {
+  const upper = word.toUpperCase();
+  const tokens: string[] = [];
+  let i = 0;
+
+  while (i < upper.length) {
+    let matched = false;
+
+    for (const ml of MULTI_CHAR_LETTERS) {
+      if (upper.startsWith(ml.toUpperCase(), i)) {
+        tokens.push(ml.toUpperCase());
+        i += ml.length;
+        matched = true;
+        break;
+      }
+    }
+
+    if (!matched) {
+      tokens.push(upper[i]);
+      i++;
+    }
+  }
+
+  return tokens;
+}
+
+export function compareTsintskaroWords(a: string, b: string): number {
+  const tokensA = tokenizeWord(a);
+  const tokensB = tokenizeWord(b);
+  const len = Math.min(tokensA.length, tokensB.length);
+
+  for (let i = 0; i < len; i++) {
+    const orderA = LETTER_ORDER.has(tokensA[i])
+      ? LETTER_ORDER.get(tokensA[i])!
+      : 999;
+    const orderB = LETTER_ORDER.has(tokensB[i])
+      ? LETTER_ORDER.get(tokensB[i])!
+      : 999;
+
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+  }
+
+  return tokensA.length - tokensB.length;
+}
+
+export function formatDictionaryWord(word: string): string {
+  const [firstLetter, ...rest] = Array.from(word);
+
+  if (!firstLetter) {
+    return word;
+  }
+
+  return `${firstLetter.toUpperCase()}${rest.join("")}`;
+}
+
 export interface DictionaryMetadata {
   name: string;
   nameEn: string;
@@ -65,13 +127,13 @@ export interface Dictionary {
 }
 
 /**
- * Load the dictionary JSON
- * Import this in your components to access the dictionary
+ * Static dictionary JSON is no longer the source of truth.
+ * Use getAllWords() from @/lib/db/words in server code instead.
  */
 export async function loadDictionary(): Promise<Dictionary> {
-  // Dynamic import for the JSON file
-  const dictionary = await import('./dictionary.json');
-  return dictionary.default || dictionary;
+  throw new Error(
+    "Static dictionary JSON has been removed. Use getAllWords() from @/lib/db/words in server code."
+  );
 }
 
 /**
